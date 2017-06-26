@@ -1,12 +1,12 @@
 # ML_Note
 > A personal note in my process of learning ML.
-> Feel free to [contact me](jeff-houkj@qq.com) if you are interested.
+> Feel free to contact me at <jeff-houkj@qq.com> if you are interested.
 
 > This note may be confusing to you since it is just a personal learning notebook.
 > But I will try to make it universally applicable later.
 
 ## Conceptual - Study Fields
-* [math](math)
+* [Math](math)
 * [Information theory](information_theory)
 * [GAN](gan)
 
@@ -19,7 +19,7 @@
 
 ## Courses
 
-* [Machine Learning - Coursera](https://www.coursera.org/learn/machine-learning/home/welcome)
+* [Machine Learning - Coursera](https://www.coursera.org/learn/machine-learning/home/welcome) Fundamental ML
 * [fast.ai](http://course.fast.ai/index.html)
 
 ## Tutorials

@@ -6,10 +6,10 @@
 > But I will try to make it universally applicable later.
 
 ## Conceptual - Study Fields
-* [Math](math)
-* [Information theory](information_theory)
-* [GAN](gan)
-
+* [Math](conceptual/math)
+* [Information theory](conceptual/information_theory)
+* [GAN](conceptual/gan)
+* [NLP](conceptual/nlp)
 
 ## People
 * [Andrew Ng](https://www.facebook.com/andrew.ng.96)
@@ -31,12 +31,20 @@
 * [Vanishing Gradient Problem](https://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&mid=2247484035&idx=1&sn=4d657a78a935bdd830004b95e130a48d)
 
 ## Papers
-
+### GAN
 * [really-awesome-gan](https://github.com/nightrome/really-awesome-gan) Collection of GAN papers
 * [AdversarialNetsPapers](https://github.com/zhangqianhui/AdversarialNetsPapers) Collection of GAN papers
+
+### NLP
+* [R-NET: Machine Reading Comprehension with Self-matching Networks](paper/nlp/1.pdf)
+
+### Miscellaneous
 * [DeepCodingBaselines](https://github.com/DeepSE/DeepCodingBaselines) Collection of ML papers on Code Completion, Dialogue, Bug Localization, Code Clone Detection, Commit Summarization, Bug Fix and Overrun Detect
 
 ## Webs or APIs
 
 * [grakn.ai](https://grakn.ai)
 * [algorithmia](https://algorithmia.com)
+* [哈工大语言技术平台云](http://www.ltp-cloud.com)
+* [NOUS: Construction, Querying and Reasoning with Knowledge Graphs](https://github.com/streaming-graphs/NOUS)
+* [CN-DBpedia: 复旦·知识图谱API](http://kw.fudan.edu.cn/cndbpedia/intro/)

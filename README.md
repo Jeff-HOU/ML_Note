@@ -1,6 +1,6 @@
 # ML_Note
-> A personal note in my process of learning ML.
-> You are welcomed to contact me if you are interested.
+> A personal note in my process of learning ML.<br>
+> You are welcomed to contact me if you are interested in it.<br>
 > Maybe we can talk about it together.
 
 ## Conceptual - Study Fields

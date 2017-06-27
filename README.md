@@ -5,11 +5,14 @@
 > This note may be confusing to you since it is just a personal learning notebook.
 > But I will try to make it universally applicable later.
 
+* [You may want to search](search.html)
+
 ## Conceptual - Study Fields
 * [Math](conceptual/math)
 * [Information theory](conceptual/information_theory)
 * [GAN](conceptual/gan)
 * [NLP](conceptual/nlp)
+* [Miscellaneous](conceptual/miscellaneous)
 
 ## People
 * [Andrew Ng](https://www.facebook.com/andrew.ng.96)

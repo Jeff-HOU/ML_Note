@@ -9,6 +9,7 @@
 
 ## Conceptual - Study Fields
 * [Math](conceptual/math)
+* [Basic](conceptual/basic)
 * [Information theory](conceptual/information_theory)
 * [GAN](conceptual/gan)
 * [NLP](conceptual/nlp)
@@ -18,7 +19,7 @@
 * [Andrew Ng](https://www.facebook.com/andrew.ng.96)
 * [Xf Mao](https://www.zhihu.com/people/mao-xiao-feng-29-7/answers)
 * [xf__mao](http://blog.csdn.net/mao_xiao_feng)
-* [Poll](http://www.cnblogs.com/maybe2030/p/6336896.html)
+* [Poll](http://www.cnblogs.com/maybe2030)
 
 ## Courses
 
@@ -38,6 +39,7 @@
 * [really-awesome-gan](https://github.com/nightrome/really-awesome-gan) Collection of GAN papers
 * [AdversarialNetsPapers](https://github.com/zhangqianhui/AdversarialNetsPapers) Collection of GAN papers
 
+
 ### NLP
 * [R-NET: Machine Reading Comprehension with Self-matching Networks](paper/nlp/1.pdf)
 
@@ -51,3 +53,11 @@
 * [哈工大语言技术平台云](http://www.ltp-cloud.com)
 * [NOUS: Construction, Querying and Reasoning with Knowledge Graphs](https://github.com/streaming-graphs/NOUS)
 * [CN-DBpedia: 复旦·知识图谱API](http://kw.fudan.edu.cn/cndbpedia/intro/)
+* [邓范鑫——致力于变革未来的智能技术(个人博客)](http://www.dengfanxin.cn)
+* [开发者头条](https://toutiao.io/explore)
+* [WordNet: A lexical database for English](https://wordnet.princeton.edu)
+* [DeepMind](https://deepmind.com)
+* [ConvNetJS: Deep Learning in your browser](http://cs.stanford.edu/people/karpathy/convnetjs/)
+* [betafaceapi](https://www.betafaceapi.com/wpa/)
+* [Kesci](https://www.kesci.com)
+* [rsync: fast incremental file transfer tool](https://rsync.samba.org)

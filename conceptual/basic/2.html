@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html style="-webkit-text-size-adjust: 100%; line-height: 1.60">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+        <script nonce="1779067133" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        
+<script nonce="1779067133" type="text/javascript">
+    var biz = "MzI4MDYzNzg4Mw=="||"";
+    var sn = "94d48456009debfd73d7dbf209a5167e" || ""|| "";
+    var mid = "2247483916" || ""|| "";
+    var idx = "1" || "" || "";
+    window.__allowLoadResFromMp = true; 
+    
+</script>
+<script nonce="1779067133" type="text/javascript">
+var page_begintime=+new Date,is_rumor="",norumor="";
+1*is_rumor&&!(1*norumor)&&biz&&mid&&(document.referrer&&-1!=document.referrer.indexOf("mp.weixin.qq.com/mp/rumor")||(location.href="http://mp.weixin.qq.com/mp/rumor?action=info&__biz="+biz+"&mid="+mid+"&idx="+idx+"&sn="+sn+"#wechat_redirect")),
+document.domain="qq.com";
+</script>
+<script nonce="1779067133" type="text/javascript">
+var MutationObserver=window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver,isDangerSrc=function(t){
+if(t){
+var e=t.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+if(e&&!/qq\.com(\:8080)?$/.test(e[1])&&!/weishi\.com$/.test(e[1]))return!0;
+}
+return!1;
+},ishttp=0==location.href.indexOf("http://");
+-1==location.href.indexOf("safe=0")&&ishttp&&"function"==typeof MutationObserver&&"mp.weixin.qq.com"==location.host&&(window.__observer_data={
+count:0,
+exec_time:0,
+list:[]
+},window.__observer=new MutationObserver(function(t){
+window.__observer_data.count++;
+var e=new Date,r=[];
+t.forEach(function(t){
+for(var e=t.addedNodes,o=0;o<e.length;o++){
+var n=e[o];
+if("SCRIPT"===n.tagName){
+var i=n.src;
+isDangerSrc(i)&&(window.__observer_data.list.push(i),r.push(n)),!i&&window.__nonce_str&&n.getAttribute("nonce")!=window.__nonce_str&&(window.__observer_data.list.push("inlinescript_without_nonce"),
+r.push(n));
+}
+}
+});
+for(var o=0;o<r.length;o++){
+var n=r[o];
+n.parentNode&&n.parentNode.removeChild(n);
+}
+window.__observer_data.exec_time+=new Date-e;
+}),window.__observer.observe(document,{
+subtree:!0,
+childList:!0
+})),function(){
+if(-1==location.href.indexOf("safe=0")&&Math.random()<.01&&ishttp&&HTMLScriptElement.prototype.__lookupSetter__&&"undefined"!=typeof Object.defineProperty){
+window.__danger_src={
+xmlhttprequest:[],
+script_src:[],
+script_setAttribute:[]
+};
+var t="$"+Math.random();
+HTMLScriptElement.prototype.__old_method_script_src=HTMLScriptElement.prototype.__lookupSetter__("src"),
+HTMLScriptElement.prototype.__defineSetter__("src",function(t){
+t&&isDangerSrc(t)&&window.__danger_src.script_src.push(t),this.__old_method_script_src(t);
+});
+var e="element_setAttribute"+t;
+Object.defineProperty(Element.prototype,e,{
+value:Element.prototype.setAttribute,
+enumerable:!1
+}),Element.prototype.setAttribute=function(t,r){
+"SCRIPT"==this.tagName&&"src"==t&&isDangerSrc(r)&&window.__danger_src.script_setAttribute.push(r),
+this[e](t,r);
+};
+}
+}();
+</script>
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/mmbizwap/en_US/htmledition/images/icon/common/favicon22c41c.ico">
+<script nonce="1779067133" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&amp;", "&", "&yen;", "¥"];
+        if (encode) {
+            replace.reverse();
+        }
+        for (var i=0,str=this;i< replace.length;i+= 2) {
+             str=str.replace(new RegExp(replace[i],'g'),replace[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "MTEwNjYzNzk4Mg==" || '';
+        window.key = params['key'] || "749b9ba3255131eb806dad50f8d53b92ad64f42987ca9e0ce24f5ed355edb3bfbb32717dcf83510c85496e8e739d9b20e252fe3bbb5cd9304d6c1dc03113726a854afa599861e84fab689d37735572e4" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+        <title>深入浅出理解决策树算法（二）-ID3算法与C4.5算法</title>
+        
+<style>html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.6}body{-webkit-touch-callout:none;font-family:-apple-system-font,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;background-color:#f3f3f3;line-height:inherit}body.rich_media_empty_extra{background-color:#fff}body.rich_media_empty_extra .rich_media_area_primary:before{display:none}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:16px}*{margin:0;padding:0}a{color:#607fa6;text-decoration:none}.rich_media_inner{font-size:16px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.rich_media_area_primary{position:relative;padding:20px 15px 15px;background-color:#fff}.rich_media_area_primary:before{content:" ";position:absolute;left:0;top:0;width:100%;height:1px;border-top:1px solid #e5e5e5;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5);top:auto;bottom:-2px}.rich_media_area_primary .original_img_wrp{display:inline-block;font-size:0}.rich_media_area_primary .original_img_wrp .tips_global{display:block;margin-top:.5em;font-size:14px;text-align:right;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.rich_media_area_extra{padding:0 15px 0}.rich_media_title{margin-bottom:10px;line-height:1.4;font-weight:400;font-size:24px}.rich_media_meta_list{margin-bottom:18px;line-height:20px;font-size:0}.rich_media_meta_list em{font-style:normal}.rich_media_meta{display:inline-block;vertical-align:middle;margin-right:8px;margin-bottom:10px;font-size:16px}.meta_original_tag{display:inline-block;vertical-align:middle;padding:1px .5em;border:1px solid #9e9e9e;color:#8c8c8c;border-top-left-radius:20% 50%;-moz-border-radius-topleft:20% 50%;-webkit-border-top-left-radius:20% 50%;border-top-right-radius:20% 50%;-moz-border-radius-topright:20% 50%;-webkit-border-top-right-radius:20% 50%;border-bottom-left-radius:20% 50%;-moz-border-radius-bottomleft:20% 50%;-webkit-border-bottom-left-radius:20% 50%;border-bottom-right-radius:20% 50%;-moz-border-radius-bottomright:20% 50%;-webkit-border-bottom-right-radius:20% 50%;font-size:15px;line-height:1.1}.meta_enterprise_tag img{width:30px;height:30px!important;display:block;position:relative;margin-top:-3px;border:0}.rich_media_meta_text{color:#8c8c8c}span.rich_media_meta_nickname{display:none}.rich_media_thumb_wrp{margin-bottom:6px}.rich_media_thumb_wrp .original_img_wrp{display:block}.rich_media_thumb{display:block;width:100%}.rich_media_content{overflow:hidden;color:#3e3e3e}.rich_media_content *{max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}.rich_media_content p{clear:both;min-height:1em}.rich_media_content em{font-style:italic}.rich_media_content fieldset{min-width:0}.rich_media_content .list-paddingleft-2{padding-left:30px}.rich_media_content blockquote{margin:0;padding-left:10px;border-left:3px solid #dbdbdb}img{height:auto!important}@media screen and (device-aspect-ratio:2/3),screen and (device-aspect-ratio:40/71){.meta_original_tag{padding-top:0}}@media(min-device-width:375px) and (max-device-width:667px) and (-webkit-min-device-pixel-ratio:2){.mm_appmsg .rich_media_inner,.mm_appmsg .rich_media_meta,.mm_appmsg .discuss_list,.mm_appmsg .rich_media_extra,.mm_appmsg .title_tips .tips{font-size:17px}.mm_appmsg .meta_original_tag{font-size:15px}}@media(min-device-width:414px) and (max-device-width:736px) and (-webkit-min-device-pixel-ratio:3){.mm_appmsg .rich_media_title{font-size:25px}}@media screen and (min-width:1024px){.rich_media{width:740px;margin-left:auto;margin-right:auto}.rich_media_inner{padding:20px}body{background-color:#fff}}@media screen and (min-width:1025px){body{font-family:"Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif}.rich_media{position:relative}.rich_media_inner{background-color:#fff;padding-bottom:100px}}.radius_avatar{display:inline-block;background-color:#fff;padding:3px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;overflow:hidden;vertical-align:middle}.radius_avatar img{display:block;width:100%;height:100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;background-color:#eee}.cell{padding:.8em 0;display:block;position:relative}.cell_hd,.cell_bd,.cell_ft{display:table-cell;vertical-align:middle;word-wrap:break-word;word-break:break-all;white-space:nowrap}.cell_primary{width:2000px;white-space:normal}.flex_cell{padding:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex_cell_primary{width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1}.original_tool_area{display:block;padding:.75em 1em 0;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#3e3e3e;border:1px solid #eaeaea;margin:20px 0}.original_tool_area .tips_global{position:relative;padding-bottom:.5em;font-size:15px}.original_tool_area .tips_global:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dbdbdb;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:27px;height:27px;padding:0;margin-right:.5em}.original_tool_area .radius_avatar img{height:100%!important}.original_tool_area .flex_cell_bd{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.original_tool_area .flex_cell_ft{font-size:14px;color:#8c8c8c;padding-left:1em;white-space:nowrap}.original_tool_area .icon_access:after{content:" ";display:inline-block;height:8px;width:8px;border-width:1px 1px 0 0;border-color:#cbcad0;border-style:solid;transform:matrix(0.71,0.71,-0.71,0.71,0,0);-ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);-webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);position:relative;top:-2px;top:-1px}.weui_loading{width:20px;height:20px;display:inline-block;vertical-align:middle;-webkit-animation:weuiLoading 1s steps(12,end) infinite;animation:weuiLoading 1s steps(12,end) infinite;background:transparent url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iciIgd2lkdGg9JzEyMHB4JyBoZWlnaHQ9JzEyMHB4JyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJub25lIiBjbGFzcz0iYmsiPjwvcmVjdD4KICAgIDxyZWN0IHg9JzQ2LjUnIHk9JzQwJyB3aWR0aD0nNycgaGVpZ2h0PScyMCcgcng9JzUnIHJ5PSc1JyBmaWxsPScjRTlFOUU5JwogICAgICAgICAgdHJhbnNmb3JtPSdyb3RhdGUoMCA1MCA1MCkgdHJhbnNsYXRlKDAgLTMwKSc+CiAgICA8L3JlY3Q+CiAgICA8cmVjdCB4PSc0Ni41JyB5PSc0MCcgd2lkdGg9JzcnIGhlaWdodD0nMjAnIHJ4PSc1JyByeT0nNScgZmlsbD0nIzk4OTY5NycKICAgICAgICAgIHRyYW5zZm9ybT0ncm90YXRlKDMwIDUwIDUwKSB0cmFuc2xhdGUoMCAtMzApJz4KICAgICAgICAgICAgICAgICByZXBlYXRDb3VudD0naW5kZWZpbml0ZScvPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyM5Qjk5OUEnCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSg2MCA1MCA1MCkgdHJhbnNsYXRlKDAgLTMwKSc+CiAgICAgICAgICAgICAgICAgcmVwZWF0Q291bnQ9J2luZGVmaW5pdGUnLz4KICAgIDwvcmVjdD4KICAgIDxyZWN0IHg9JzQ2LjUnIHk9JzQwJyB3aWR0aD0nNycgaGVpZ2h0PScyMCcgcng9JzUnIHJ5PSc1JyBmaWxsPScjQTNBMUEyJwogICAgICAgICAgdHJhbnNmb3JtPSdyb3RhdGUoOTAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNBQkE5QUEnCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgxMjAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNCMkIyQjInCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgxNTAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNCQUI4QjknCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgxODAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNDMkMwQzEnCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgyMTAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNDQkNCQ0InCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgyNDAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNEMkQyRDInCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgyNzAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNEQURBREEnCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgzMDAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNFMkUyRTInCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgzMzAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0Pgo8L3N2Zz4=) no-repeat;-webkit-background-size:100%;background-size:100%}@-webkit-keyframes weuiLoading{0%{-webkit-transform:rotate3d(0,0,1,0deg)}100%{-webkit-transform:rotate3d(0,0,1,360deg)}}@keyframes weuiLoading{0%{-webkit-transform:rotate3d(0,0,1,0deg)}100%{-webkit-transform:rotate3d(0,0,1,360deg)}}.gif_img_wrp{display:inline-block;font-size:0;position:relative;font-weight:400;font-style:normal;text-indent:0;text-shadow:none 1px 1px rgba(0,0,0,0.5)}.gif_img_wrp img{vertical-align:top}.gif_img_tips{background:rgba(0,0,0,0.6)!important;filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000',endcolorstr = '#99000000');border-top-left-radius:1.2em 50%;-moz-border-radius-topleft:1.2em 50%;-webkit-border-top-left-radius:1.2em 50%;border-top-right-radius:1.2em 50%;-moz-border-radius-topright:1.2em 50%;-webkit-border-top-right-radius:1.2em 50%;border-bottom-left-radius:1.2em 50%;-moz-border-radius-bottomleft:1.2em 50%;-webkit-border-bottom-left-radius:1.2em 50%;border-bottom-right-radius:1.2em 50%;-moz-border-radius-bottomright:1.2em 50%;-webkit-border-bottom-right-radius:1.2em 50%;line-height:2.3;font-size:11px;color:#fff;text-align:center;position:absolute;bottom:10px;left:10px;min-width:65px}.gif_img_tips.loading{min-width:75px}.gif_img_tips i{vertical-align:middle;margin:-0.2em .73em 0 -2px}.gif_img_play_arrow{display:inline-block;width:0;height:0;border-width:8px;border-style:dashed;border-color:transparent;border-right-width:0;border-left-color:#fff;border-left-style:solid;border-width:5px 0 5px 8px}.gif_img_loading{width:14px;height:14px}i.gif_img_loading{margin-left:-4px}.gif_bg_tips_wrp{position:relative;height:0;line-height:0;margin:0;padding:0}.gif_bg_tips_wrp .gif_img_tips_group{position:absolute;top:0;left:0;z-index:9999}.gif_bg_tips_wrp .gif_img_tips_group .gif_img_tips{top:0;left:0;bottom:auto}.rich_media_global_msg{position:fixed;top:0;left:0;right:0;padding:1em 35px 1em 15px;z-index:2;background-color:#c6e0f8;color:#8c8c8c;font-size:13px}.rich_media_global_msg .icon_closed{position:absolute;right:15px;top:50%;margin-top:-5px;line-height:300px;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);background:transparent url(/mmbizwap/en_US/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x.png) no-repeat 0 0;width:11px;height:11px;vertical-align:middle;display:inline-block;-webkit-background-size:100% auto;background-size:100% auto}.rich_media_global_msg .icon_closed:active{background-position:0 -17px}.preview_appmsg .rich_media_title{margin-top:1.9em}@media screen and (min-width:1024px){.rich_media_global_msg{position:relative;margin:0 20px}.preview_appmsg .rich_media_title{margin-top:0}}.weapp_element,.weapp_display_element,.mp-miniprogram{display:block;margin:1em 0}.share_audio_context{margin:16px 0}.weapp_text_link{font-size:17px}.weapp_text_link:before{content:'';display:inline-block;line-height:1;background-size:12px 12px;background-repeat:no-repeat;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAb1BMVEUAAAB4it11h9x2h9x2h9x2htx8j+R8i+B1h9x2h9x3h92Snv91htt2h9x1h9x4h9x1h9x1h9x2idx1h9t2h9t1htt1h9x1h9x1htx2h9x1h912h9x4h913iN17juOOjuN1iNx2h9t4h958i+B1htvejBiPAAAAJHRSTlMALPLcxKcVEOXXUgXtspU498sx69DPu5+Yc2JeRDwbCYuIRiGBtoolAAAA3ElEQVQoz62S1xKDIBBFWYiFYImm2DWF///G7DJEROOb58U79zi4O8iOo8zuCRfV8EdFgbYE49qFQs8ksJInajOA1wWfYvLcGSueU/oUGBtPpti09uNS68KTMcrQ5jce4kmN/HKn9XVPAo702JEdx9hTUrWUqVrI3KwUmM1NhIWMKdwiGvpGMWZOAj1PZuzAxHwhVSplrajoseBnbyDHAwvrtvKKhdqTtFBkL8wO5ijcsS3G1JMNvQ5mdW7fc0x0+ZcnlJlZiflAomdEyFaM7qeK2JahEjy5ZyU7jC/q/Rz/DgqEuAAAAABJRU5ErkJggg==');vertical-align:middle;font-size:11px;color:#888;border-radius:10px;background-color:#f4f4f4;margin-right:6px;margin-top:-4px;background-position:center;height:20px;width:20px}.weui-mask{position:fixed;z-index:1000;top:0;right:0;left:0;bottom:0;background:rgba(0,0,0,0.6)}.weui-dialog{position:fixed;z-index:5000;width:80%;max-width:300px;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);background-color:#fff;text-align:center;border-radius:3px;overflow:hidden}.weui-dialog__hd{padding:1.3em 1.6em .5em}.weui-dialog__title{font-weight:400;font-size:18px}.weui-dialog__bd{padding:0 1.6em .8em;min-height:40px;font-size:15px;line-height:1.3;word-wrap:break-word;word-break:break-all;color:#999}.weui-dialog__bd:first-child{padding:2.7em 20px 1.7em;color:#353535}.weui-dialog__ft{position:relative;line-height:48px;font-size:18px;display:-webkit-box;display:-webkit-flex;display:flex}.weui-dialog__ft:after{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #d5d5d6;color:#d5d5d6;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.weui-dialog__btn{display:block;-webkit-box-flex:1;-webkit-flex:1;flex:1;color:#3cc51f;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0);position:relative}.weui-dialog__btn:active{background-color:#eee}.weui-dialog__btn:after{content:" ";position:absolute;left:0;top:0;width:1px;bottom:0;border-left:1px solid #d5d5d6;color:#d5d5d6;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleX(0.5);transform:scaleX(0.5)}.weui-dialog__btn:first-child:after{display:none}.weui-dialog__btn_default{color:#353535}.weui-dialog__btn_primary{color:#0bb20c}</style>
+<style>
+        .rich_media_content{font-size:18px;}
+    </style>
+<!--[if lt IE 9]>
+<link onerror="wx_loaderror(this)" rel="stylesheet" type="text/css" href="//res.wx.qq.com/mmbizwap/en_US/htmledition/style/page/appmsg/page_mp_article_improve_pc2c9cd7.css">
+<![endif]-->
+
+    </head>
+    <body id="activity-detail" class="en_US mm_appmsg">
+        
+<script nonce="1779067133" type="text/javascript">
+    var write_sceen_time = (+new Date());
+</script>
+
+<div id="js_article" class="rich_media">
+    
+    <div id="js_top_ad_area" class="top_banner"></div>
+    
+    <div class="rich_media_inner">
+                
+        <div id="page-content" class="rich_media_area_primary">
+            
+                        <div id="img-content">
+                
+                <h2 class="rich_media_title" id="activity-name">
+                    深入浅出理解决策树算法（二）-ID3算法与C4.5算法                </h2>
+                <div class="rich_media_meta_list">
+                                        <span id="copyright_logo" class="rich_media_meta meta_original_tag">Original</span>
+                                                            <em id="post-date" class="rich_media_meta rich_media_meta_text">2017-05-08</em>
+
+                                        <em class="rich_media_meta rich_media_meta_text">忆臻</em>
+                                        <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="##" id="post-user">自然语言处理与机器学习</a>
+                    <span class="rich_media_meta rich_media_meta_text rich_media_meta_nickname">自然语言处理与机器学习</span>
+
+                    <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                        <div class="profile_inner">
+                            <strong class="profile_nickname">自然语言处理与机器学习</strong>
+                            <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                            <p class="profile_meta">
+                            <label class="profile_meta_label">WeChat ID</label>
+                            <span class="profile_meta_value">yizhennotes</span>
+                            </p>
+
+                            <p class="profile_meta">
+                            <label class="profile_meta_label">Intro</label>
+                            <span class="profile_meta_value">记录自己在计算机领域学习,生活过程中的所学所想!关注nlp,ml,数学算法等知识.期待和你相遇！</span>
+                            </p>
+                            
+                        </div>
+                        <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                            <i class="profile_arrow arrow_out"></i>
+                            <i class="profile_arrow arrow_in"></i>
+                        </span>
+                    </div>
+                </div>
+                
+                
+                
+                
+                                                
+                                                
+                
+                <div class="rich_media_content " id="js_content">
+                    
+
+                    
+
+                    
+                    
+                    <section class="xmteditor" style="display:none;" data-tools="新媒体管家" data-label="powered by xmt.cn"></section><section label="Powered by 135editor.com" style="font-family: 微软雅黑; font-size: 16px;"><section data-role="outer" label="Powered by 135editor.com" style="font-size:16px;"><section data-role="outer" label="Powered by 135editor.com" style="font-size:16px;"><section class="_135editor" data-tools="135编辑器" data-id="86486" style="border-width: 0px; border-style: none; border-color: initial; padding: 0px; box-sizing: border-box;"><section style="margin: 30px; color: rgb(39, 80, 44); background-color: rgb(164, 210, 169);"><section style="width: 16px; height: 50px; border-left-width: 1px; border-left-style: solid; border-color: rgb(164, 210, 169); box-sizing: border-box; display: inline-block; margin-top: -20px; margin-left: -4px; background-color: rgb(254, 254, 254);transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);-ms-transform: rotate(45deg);-o-transform: rotate(45deg);"></section><section data-style="text-align: center;color:rgb(255,255,255);" style="color:rgb(62, 62, 62);"><section style="color: inherit; text-align: center;margin:-30px 0px -30px;line-height:2.1;"><p style="white-space: normal;"><span style="color: #FFFFFF; font-size: 18px;" class="135brush" data-brushtype="text">深入浅出理解决策树算法（二）-ID3算法与C4.5算法</span></p></section><section style="width: 16px; height: 50px; margin-right: -2px; border-right-width: 1px; border-right-style: solid; border-right-color: rgb(164, 210, 169); box-sizing: border-box; display: inline-block; margin-top: 2px; float: right; background-color: rgb(254, 254, 254);transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);-ms-transform: rotate(45deg);-o-transform: rotate(45deg);"></section></section></section></section><section class="_135editor" data-tools="135编辑器" data-id="45865" style="border-width: 0px; border-style: none; border-color: initial; padding: 0px; box-sizing: border-box;"><section style="margin: 0.8em 0 0.5em 0;font-size: 16px;line-height: 32px; font-weight: bold;"><section style="display: inline-block; float: left; min-width: 32px; height: 32px; vertical-align: top; text-align: center;  "><section style="display: table; width: 100%; color: inherit; border-color: rgb(72, 192, 163); box-sizing: border-box;" data-width="100%"><section style="display: table-cell; text-indent: 0px; vertical-align: middle; font-style: normal; color: rgb(255, 255, 255); border-color: rgb(72, 192, 163); box-sizing: border-box;"><span class="autonum" style="color:#C6C6C7; font-size:50px" data-original-title="" title="">1</span></section><section style="width: 18px; height: 70px;margin-left: -6px; margin-top:5px;border-left:1px solid rgb(198,198,199);background-color: rgb(254,254,254); box-sizing: border-box;transform: rotate(35deg);-webkit-transform: rotate(35deg);-moz-transform: rotate(35deg);-ms-transform: rotate(35deg);-o-transform: rotate(35deg);"></section></section></section><section style="margin-left: 40px; padding-top: 18px; font-style: normal; font-size: 30px; color: rgb(115, 115, 115); border-color: rgb(72, 192, 163); box-sizing: border-box;"><span class="135brush" data-brushtype="text" style="color:#737373; font-size:20px">&nbsp; 引入</span></section></section></section><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;">从<a href="http://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&amp;mid=2247483909&amp;idx=1&amp;sn=5d5d3ea5b7327b882f2d6ddcd24866b5&amp;chksm=ebb43ad1dcc3b3c751d89a86f4f42c42c5c84f668d4b30355d8eb9ad8492e9e9cdde24271d20&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&amp;mid=2247483909&amp;idx=1&amp;sn=5d5d3ea5b7327b882f2d6ddcd24866b5&amp;chksm=ebb43ad1dcc3b3c751d89a86f4f42c42c5c84f668d4b30355d8eb9ad8492e9e9cdde24271d20&amp;scene=21#wechat_redirect">深入浅出理解决策树算法（一）-核心思想</a>文章中，我们已经知道了决策树最基本也是最核心的思想。</p><p style="white-space: normal; line-height: 2em;"><br  /></p><p style="white-space: normal; line-height: 2em;">那就是其实决策树就是可以看<span style="color: #FF0000;"><strong>做一个if-then规则的集合。</strong><strong>我们从决策树的根结点到每一个都叶结点构建一条规则。</strong></span></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal;"><strong>并且我们将要预测的实例都可以被一条路径或者一条规则所覆盖。</strong></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;"><strong>如下例：假设我们已经构建好了决策树，</strong>现在买了一个西瓜，它的特点是纹理是清晰，根蒂是硬挺的瓜，你来给我判断一下是好瓜还是坏瓜，恰好，你构建了一颗决策树，告诉他，没问题，我马上告诉你是好瓜，还是坏瓜？</p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;">根据决策树的算法步骤，我们可以得到下面的图示过程：</p><p style="white-space: normal; line-height: 2em;"><br  /></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; text-align: center;"><img data-src="http://mmbiz.qpic.cn/mmbiz_jpg/nJZZib3qIQW4vnPfz1ftnuLWcEG12oNVNYFd9yRG2puaJLsoKnKu5hvOELAwVpagmCibxwPPPy4s3vibz39JicCTCg/0" data-ratio="0.59125" data-w="800"  /></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; text-align: center;"><noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;img src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic2.zhimg.com/v2-dbb2bb70e13a445cab2fb55fbbbde8f5_b.jpg&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawwidth=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;1189&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawheight=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;704&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; class=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;origin_image zh-lightbox-thumb&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; width=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;1189&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-original=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic2.zhimg.com/v2-dbb2bb70e13a445cab2fb55fbbbde8f5_r.jpg&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; _src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic2.zhimg.com/v2-dbb2bb70e13a445cab2fb55fbbbde8f5_b.jpg&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;/&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;img src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic4.zhimg.com/v2-2b9fa6e186228e75e1baadd8f1ddb0d7_b.jpg&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawwidth=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;1189&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawheight=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;704&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; class=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;origin_image zh-lightbox-thumb&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; width=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;1189&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-original=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic4.zhimg.com/v2-2b9fa6e186228e75e1baadd8f1ddb0d7_r.jpg&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; _src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic4.zhimg.com/v2-2b9fa6e186228e75e1baadd8f1ddb0d7_b.jpg&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;/&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;到达叶子结点后，从而得到结论。我这个瓜的判断是坏瓜。</noscript><img data-src="http://mmbiz.qpic.cn/mmbiz_jpg/nJZZib3qIQW4vnPfz1ftnuLWcEG12oNVN6S4NXMPDjYed1iaiaTcylB3LADw5kDxRa9SngB22XibUP1OO7ILoMIcJg/0" data-ratio="0.59125" data-w="800"  /></p><p style="white-space: normal; text-align: center;"><br  /></p><p style="white-space: normal; text-align: left;">到达叶子结点后，从而得到结论。<strong><span style="color: rgb(255, 0, 0);">我这个瓜的判断是坏瓜。（叶子结点就是类别了）</span></strong></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal;">算法思路在上篇文章都讲解过，这里我们重点来说一下，在每一层的生长过程中，如何选择特征！</p><p style="white-space: normal;"><br  /></p><p style="white-space: normal;">每一层选择好了特征之后，树也就自然建好了。</p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;">树建好了，也就万事大吉了（剪枝什么的暂时不讲），来了一个实例，我直接遍历树，到达叶子结点，就可以获取该实例的类别了。</p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;">决策树学习的关键其实就是选择最优划分属性，<span style="color: #FF0000;"><strong>希望划分后，分支结点的“纯度”越来越高。</strong></span></p><p style="white-space: normal; line-height: 2em;"><br  /></p><p style="white-space: normal; line-height: 2em;">那么“纯度”的度量方法不同，也就导致了学习算法的不同，这里我们讲解最常见的俩种算法，<span style="color: rgb(255, 0, 0);">ID3算法与C4.5算法。</span></p><p style="white-space: normal;"><br  /></p><h2 style="font-weight: bold; font-size: 16px; line-height: 1.6em;"></h2><section class="_135editor" data-tools="135编辑器" data-id="45865" style="border-width: 0px; border-style: none; border-color: initial; padding: 0px; box-sizing: border-box;"><section style="margin: 0.8em 0 0.5em 0;font-size: 16px;line-height: 32px; font-weight: bold;"><section style="display: inline-block; float: left; min-width: 32px; height: 32px; vertical-align: top; text-align: center;  "><section style="display: table; width: 100%; color: inherit; border-color: rgb(72, 192, 163); box-sizing: border-box;" data-width="100%"><section style="display: table-cell; text-indent: 0px; vertical-align: middle; font-style: normal; color: rgb(255, 255, 255); border-color: rgb(72, 192, 163); box-sizing: border-box;"><span class="autonum" style="color:#C6C6C7; font-size:50px" data-original-title="" title="">2</span></section><section style="width: 18px; height: 70px;margin-left: -6px; margin-top:5px;border-left:1px solid rgb(198,198,199);background-color: rgb(254,254,254); box-sizing: border-box;transform: rotate(35deg);-webkit-transform: rotate(35deg);-moz-transform: rotate(35deg);-ms-transform: rotate(35deg);-o-transform: rotate(35deg);"></section></section></section><section style="margin-left: 40px; padding-top: 18px; font-style: normal; font-size: 30px; color: rgb(115, 115, 115); border-color: rgb(72, 192, 163); box-sizing: border-box;"><span class="135brush" data-brushtype="text" style="color:#737373; font-size:20px">&nbsp; ID3算法</span></section></section></section><h2 style="font-weight: bold; font-size: 16px; line-height: 1.6em;"><br  /></h2><p style="white-space: normal; line-height: 2em;">我们既然希望划分之后结点的“纯度”越来越高，那么如何度量纯度呢？</p><p style="white-space: normal; line-height: 2em;"><strong>“信息熵”是度量样本集合不确定度（纯度）的最常用的指标。</strong></p><p style="white-space: normal; line-height: 2em;"><span style="color: rgb(255, 0, 0);"><strong>在我们的ID3算法中，我们采取信息增益这个量来作为纯度的度量。</strong></span></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;"><strong>我们选取使得信息增益最大的特征进行分裂！那么信息增益又是什么概念呢？</strong></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;">我们前面说了，<strong>信息熵是代表随机变量的复杂度（不确定度）<a href="http://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&amp;mid=2247483862&amp;idx=1&amp;sn=1b77aee222ccc1a0f39660d9e84bddb2&amp;chksm=ebb43902dcc3b014451a3994bda9e0d42a743ced86bc24626ad4dd9a0ff2acff30ded12ce074&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&amp;mid=2247483862&amp;idx=1&amp;sn=1b77aee222ccc1a0f39660d9e84bddb2&amp;chksm=ebb43902dcc3b014451a3994bda9e0d42a743ced86bc24626ad4dd9a0ff2acff30ded12ce074&amp;scene=21#wechat_redirect">通俗理解信息熵</a>，条件熵代表在某一个条件下，随机变量的复杂度（不确定度）<a href="http://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&amp;mid=2247483874&amp;idx=1&amp;sn=70dd52f9a18a157e7bc8d6bec6789551&amp;chksm=ebb43936dcc3b0204634346e4d710a94743605d8d867508406e359aadcd452535a312ba2fc88&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&amp;mid=2247483874&amp;idx=1&amp;sn=70dd52f9a18a157e7bc8d6bec6789551&amp;chksm=ebb43936dcc3b0204634346e4d710a94743605d8d867508406e359aadcd452535a312ba2fc88&amp;scene=21#wechat_redirect">通俗理解条件熵</a>。</strong></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;"><strong>而我们这里说的的信息增益恰好是：信息熵-条件熵。</strong></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal;"><strong>我们看如下定义：</strong></p><p style="white-space: normal;"><strong><br  /></strong></p><p style="white-space: normal; text-align: center;"><strong><img data-src="http://mmbiz.qpic.cn/mmbiz_png/nJZZib3qIQW4vnPfz1ftnuLWcEG12oNVNn3NW4rX7TVKGklW4SG4QH0zOI87fC3Y7nWQc567R9XkR1Fc8VWErvQ/0" data-ratio="0.20935412026726058" data-w="449"  /></strong></p><p style="white-space: normal;"><br  />当前样本集合D 中第 k 类样本所占的比例为 pk（k其实是下标，微信不好打），则 D &nbsp;的信息熵定义为<br  /></p><noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;img src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic1.zhimg.com/v2-92f9cbed49cd45d001b200b3a5cb23dc_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawwidth=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;308&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawheight=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;98&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; class=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;content_image&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; width=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;308&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; _src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic1.zhimg.com/v2-92f9cbed49cd45d001b200b3a5cb23dc_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;/&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><p style="white-space: normal; text-align: center;"><img data-src="http://mmbiz.qpic.cn/mmbiz_png/nJZZib3qIQW4vnPfz1ftnuLWcEG12oNVNJJFokusiawibltItQBS8u7RbSjibBFcJcI7shxPBw7MHo0Mek9gWVqvgA/0" data-ratio="0.3181818181818182" data-w="308"  /></p><p style="white-space: normal; line-height: 2em;">离散属性a 有 V 个可能的取值 {a1,a2,…,aV}；样本集合中，属性 a 上取值为 av 的样本集合，记为 Dv。<br  /><br  />用属性a 对样本集 D 进行划分所获得的“<strong>信息增益”</strong><br  /></p><p style="white-space: normal;"><strong><br  /></strong></p><p style="white-space: normal;"><br  /></p><noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;img src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic3.zhimg.com/v2-23b3766e28e441c85bbe545838a1c62e_b.jpg&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawwidth=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;449&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawheight=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;94&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; class=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;origin_image zh-lightbox-thumb&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; width=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;449&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-original=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic3.zhimg.com/v2-23b3766e28e441c85bbe545838a1c62e_r.jpg&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; _src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic3.zhimg.com/v2-23b3766e28e441c85bbe545838a1c62e_b.jpg&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;/&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><p style="white-space: normal; text-align: center;"><img data-src="http://mmbiz.qpic.cn/mmbiz_jpg/nJZZib3qIQW4vnPfz1ftnuLWcEG12oNVNuiapssk3nr8grMSd4wvvYkzEFdibrHpTy6qC73XHZibCbRea52Uia0yW3g/0" data-ratio="0.20935412026726058" data-w="449"  /><br  /><strong><br  /></strong></p><p style="white-space: normal; line-height: 2em;"><span style="color: #FF0000;"><strong>信息增益表示得知属性 a 的信息而使得样本集合不确定度减少的程度</strong></span><br  /></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;">那么我们现在也很好理解了<strong>，在决策树算法中，我们的关键就是每次选择一个特征，特征有多个，那么到底按照什么标准来选择哪一个特征。</strong></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;"><strong>对于ID3算法来说，这个问题就可以用信息增益来度量。</strong></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;">如果选择一个特征后，<strong>信息增益最大</strong>（<span style="color: #FF0000;"><strong>信息不确定性减少的程度最大</strong></span>），<strong>那么我们就选取这个特征。</strong></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;"><strong>好的，我们现在已经知道了选择指标了，就是在所有的特征中，选择信息增益最大的特征。那么如何计算呢？看下面例子：</strong></p><p style="white-space: normal;"><br  /></p><noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;img src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic1.zhimg.com/v2-4fd85ed2735866e05bc445f6964c1cf4_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawwidth=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;1190&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawheight=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;742&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; class=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;origin_image zh-lightbox-thumb&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; width=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;1190&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-original=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic1.zhimg.com/v2-4fd85ed2735866e05bc445f6964c1cf4_r.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; _src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic1.zhimg.com/v2-4fd85ed2735866e05bc445f6964c1cf4_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;/&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><p style="white-space: normal;"><img data-src="http://mmbiz.qpic.cn/mmbiz_png/nJZZib3qIQW4vnPfz1ftnuLWcEG12oNVNn0ibggH0BSue92Jxdm0u8HLlOdZXBeKNvUE3UVOVgNibL2GeDBLV5RicA/0" data-ratio="0.6235294117647059" data-w="1190"  /></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal;">正例(好瓜)占 8/17，反例占 9/17 ，根结点的信息熵为<br  /></p><p style="white-space: normal;"><br  /></p><noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;img src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic2.zhimg.com/v2-43e492644c55b02e9ee98f6b404294c5_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawwidth=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;1074&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawheight=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;127&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; class=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;origin_image zh-lightbox-thumb&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; width=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;1074&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-original=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic2.zhimg.com/v2-43e492644c55b02e9ee98f6b404294c5_r.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; _src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic2.zhimg.com/v2-43e492644c55b02e9ee98f6b404294c5_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;/&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><p style="white-space: normal;"><img data-src="http://mmbiz.qpic.cn/mmbiz_png/nJZZib3qIQW4vnPfz1ftnuLWcEG12oNVNIiaKT0icHExVv27NCnBsZyhJ3UJC9ndMcmDlmsrEHKv75XDsESlxibs6w/0" data-ratio="0.11824953445065177" data-w="1074"  /></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;">计算当前<strong>属性集合</strong><strong>{色泽，根蒂，敲声，纹理，脐部，触感}中每个属性的信息增益</strong><br  /><br  />色泽有3个可能的取值：{青绿，乌黑，浅白}<br  /></p><p style="white-space: normal; line-height: 2em;">D1(色泽=青绿) = {1, 4, 6, 10, 13, 17}，正例 &nbsp;3/6，反例 3/6</p><p style="white-space: normal; line-height: 2em;">D2(色泽=乌黑) = {2, 3, 7, 8, 9, 15}，正例 &nbsp;4/6，反例 2/6</p><p style="white-space: normal; line-height: 2em;">D3(色泽=浅白) =
+{5, 11, 12, 14, 16}，正例 &nbsp;1/5，反例 4/5<br  /><br  /><strong>3 个分支结点的信息熵</strong><br  /></p><p style="white-space: normal;"><br  /></p><noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;img src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic2.zhimg.com/v2-242125ab9668562257029dbee32d254d_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawwidth=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;660&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawheight=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;285&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; class=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;origin_image zh-lightbox-thumb&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; width=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;660&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-original=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic2.zhimg.com/v2-242125ab9668562257029dbee32d254d_r.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; _src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic2.zhimg.com/v2-242125ab9668562257029dbee32d254d_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;/&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><p style="white-space: normal;"><img data-src="http://mmbiz.qpic.cn/mmbiz_png/nJZZib3qIQW4vnPfz1ftnuLWcEG12oNVN9dr9EEBXibyNUC5ZGsic4wojBP2VMMQ1eN0ozjeFVH861zHL9dKFeUeg/0" data-ratio="0.4318181818181818" data-w="660"  /><br  /><strong><br  /></strong></p><p style="white-space: normal;"><strong>那么我们可以知道属性色泽的信息增益是：</strong><br  /></p><p style="white-space: normal;"><strong><br  /></strong></p><noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;img src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic3.zhimg.com/v2-ef0e27b825f5e09f013385f8f812a5ca_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawwidth=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;964&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawheight=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;275&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; class=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;origin_image zh-lightbox-thumb&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; width=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;964&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-original=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic3.zhimg.com/v2-ef0e27b825f5e09f013385f8f812a5ca_r.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; _src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic3.zhimg.com/v2-ef0e27b825f5e09f013385f8f812a5ca_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;/&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><p style="white-space: normal;"><img data-src="http://mmbiz.qpic.cn/mmbiz_png/nJZZib3qIQW4vnPfz1ftnuLWcEG12oNVN2ibKJmicPiasawXM0KYynQZuQyX68Ujqic1jiah0ric8oOzSGs3smLbyxMpA/0" data-ratio="0.28526970954356845" data-w="964"  /><br  /><strong><br  /></strong></p><p style="white-space: normal;"><strong>同理，我们可以求出其它属性的信息增益，分别如下：</strong><br  /></p><p style="white-space: normal;"><br  /></p><noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;img src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic3.zhimg.com/v2-31a579d93bb2ea4b8936d4c416fdb03e_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawwidth=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;755&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawheight=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;187&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; class=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;origin_image zh-lightbox-thumb&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; width=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;755&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-original=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic3.zhimg.com/v2-31a579d93bb2ea4b8936d4c416fdb03e_r.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; _src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic3.zhimg.com/v2-31a579d93bb2ea4b8936d4c416fdb03e_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;/&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><p style="white-space: normal;"><img data-src="http://mmbiz.qpic.cn/mmbiz_png/nJZZib3qIQW4vnPfz1ftnuLWcEG12oNVNSA9za9TnGQjiaF6Gv2ibx8XycV9O86leRJOkcqyZeYlXyfE9mAKAahSQ/0" data-ratio="0.247682119205298" data-w="755"  /><br  /><strong><br  /></strong></p><p style="white-space: normal;"><strong>于是我们找到了信息增益最大的属性纹理，它的Gain(D，纹理) = 0.381最大。</strong></p><p style="white-space: normal; line-height: 2em;"><strong><br  /></strong><strong>所以我们选择的划分属性为“纹理”</strong></p><p style="white-space: normal; line-height: 2em;"><strong>如下：</strong><br  /></p><noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;img src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic3.zhimg.com/v2-f782248fddd34f5ed5083f100bdd6bfe_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawwidth=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;1030&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawheight=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;292&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; class=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;origin_image zh-lightbox-thumb&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; width=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;1030&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-original=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic3.zhimg.com/v2-f782248fddd34f5ed5083f100bdd6bfe_r.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; _src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic3.zhimg.com/v2-f782248fddd34f5ed5083f100bdd6bfe_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;/&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><p style="white-space: normal;"><img data-src="http://mmbiz.qpic.cn/mmbiz_png/nJZZib3qIQW4vnPfz1ftnuLWcEG12oNVNRibVrblfz2CYKMq0Ih4nxGsSgwtfVxtQLOQG13ibAlEFyrJicnPNazekw/0" data-ratio="0.283495145631068" data-w="1030"  /></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;"><span style="color: #FF0000;"><strong>根据纹理属性划分后，我们可以得到了三</strong></span><strong><span style="color: #FF0000;">个子结点。</span></strong></p><p style="white-space: normal; line-height: 2em;"><strong><span style="color: #FF0000;">对于这三个子节点，我们可以递归的使用刚刚找信息增益最大的方法进行选择特征属性，</span></strong></p><p style="white-space: normal; line-height: 2em;"><strong><br  /></strong><strong>比如：</strong>D1(纹理=清晰) = {1, 2, 3, 4, 5, 6, 8, 10, 15}，第一个分支结点可用属性集合{色泽、根蒂、敲声、脐部、触感}，基于 D1各属性的信息增益，分别求的如下：<br  /></p><p style="white-space: normal; line-height: 2em;"><br  /></p><p style="white-space: normal;"><img data-src="http://mmbiz.qpic.cn/mmbiz_png/nJZZib3qIQW4vnPfz1ftnuLWcEG12oNVN8muO54AFECJxFtwRXISoN46DdguU0l0TFiclKBlicAzrvTImibFQESnHA/0" data-ratio="0.23923444976076555" data-w="836"  /></p><noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;img src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic1.zhimg.com/v2-0b85f41f8a81e1ef300ca49da4619254_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawwidth=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;836&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawheight=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;200&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; class=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;origin_image zh-lightbox-thumb&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; width=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;836&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-original=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic1.zhimg.com/v2-0b85f41f8a81e1ef300ca49da4619254_r.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; _src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic1.zhimg.com/v2-0b85f41f8a81e1ef300ca49da4619254_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;/&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;"><strong>于是我们可以选择特征属性为根蒂，脐部，触感三个特征属性中任选一个（<span style="color: #FF0000;">因为他们三个相等并最大</span>）。</strong></p><p style="white-space: normal; line-height: 2em;"><strong>其它俩个子结点同理，然后得到新一层的结点，再递归的由信息增益进行构建树即可</strong><br  /><strong>我们最终的决策树如下：</strong><br  /></p><p style="white-space: normal;"><br  /></p><noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;img src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic1.zhimg.com/v2-0273fa70006172ae73cb429899234afc_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawwidth=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;1189&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawheight=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;703&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; class=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;origin_image zh-lightbox-thumb&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; width=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;1189&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-original=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic1.zhimg.com/v2-0273fa70006172ae73cb429899234afc_r.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; _src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic1.zhimg.com/v2-0273fa70006172ae73cb429899234afc_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;/&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><p style="white-space: normal;"><img data-src="http://mmbiz.qpic.cn/mmbiz_png/nJZZib3qIQW4vnPfz1ftnuLWcEG12oNVNjre21sX22udBF57mEoofee4Rv4g1jvdGYqGyibD1qVuOKvic5nau7ibcA/0" data-ratio="0.5912531539108494" data-w="1189"  /><br  /><strong><br  /></strong></p><p style="white-space: normal; line-height: 2em;"><strong>啊，那到这里为止，我们已经知道了构建树的算法，上面也说了有了树，我们直接遍历决策树就能得到我们预测样例的类别。</strong></p><p style="white-space: normal; line-height: 2em;"><strong><br  /></strong></p><p style="white-space: normal; line-height: 2em;"><strong>那么是不是大功告成了呢？</strong></p><p style="white-space: normal; line-height: 2em;"><strong><br  /></strong><strong><span style="color: #FF0000;">结果是：不是的</span></strong><br  /><br  /><strong>我们从上面求解信息增益的公式中，其实可以看出，信息增益准则其实是对可取值数目较多的属性有所偏好！</strong></p><p style="white-space: normal; line-height: 2em;"><strong><br  /></strong>现在假如我们把数据集中的“编号”也作为一个候选划分属性。我们可以算出“编号”的信息增益是0.998</p><br  /><p style="white-space: normal; line-height: 2em;">因为每一个样本的编号都是不同的（<span style="color: #FF0000;"><strong>由于编号独特唯一，条件熵为0了，每一个结点中只有一类，纯度非常高啊</strong></span>）。</p><p style="white-space: normal; line-height: 2em;">也就是说，来了一个预测样本，你只要告诉我编号，其它特征就没有用了，<span style="color: #FF0000;"><strong>这样生成的决策树显然不具有泛化能力。</strong></span><br  /><br  /><strong>于是我们就引入了信息增益率来选择最优划分属性！</strong></p><p style="white-space: normal; line-height: 2em;"><strong>而信息增益率也是C4.5算法的核心思想。下面就讲解C4.5算法</strong><br  /></p><p style="white-space: normal; line-height: 2em;"><br  /></p><h2 style="font-weight: bold; font-size: 16px; line-height: 1.6em;"></h2><section class="_135editor" data-tools="135编辑器" data-id="45865" style="border-width: 0px; border-style: none; border-color: initial; padding: 0px; box-sizing: border-box;"><section style="margin: 0.8em 0 0.5em 0;font-size: 16px;line-height: 32px; font-weight: bold;"><section style="display: inline-block; float: left; min-width: 32px; height: 32px; vertical-align: top; text-align: center;  "><section style="display: table; width: 100%; color: inherit; border-color: rgb(72, 192, 163); box-sizing: border-box;" data-width="100%"><section style="display: table-cell; text-indent: 0px; vertical-align: middle; font-style: normal; color: rgb(255, 255, 255); border-color: rgb(72, 192, 163); box-sizing: border-box;"><span class="autonum" style="color:#C6C6C7; font-size:50px" data-original-title="" title="">2</span></section><section style="width: 18px; height: 70px;margin-left: -6px; margin-top:5px;border-left:1px solid rgb(198,198,199);background-color: rgb(254,254,254); box-sizing: border-box;transform: rotate(35deg);-webkit-transform: rotate(35deg);-moz-transform: rotate(35deg);-ms-transform: rotate(35deg);-o-transform: rotate(35deg);"></section></section></section><section style="margin-left: 40px; padding-top: 18px; font-style: normal; font-size: 30px; color: rgb(115, 115, 115); border-color: rgb(72, 192, 163); box-sizing: border-box;"><span class="135brush" data-brushtype="text" style="color:#737373; font-size:20px">&nbsp; C4.5算法</span></section></section></section><h2 style="font-weight: bold; font-size: 16px; line-height: 1.6em;"><br  /></h2><p style="white-space: normal; line-height: 2em;">这次我们每次进行选取特征属性的时候，不再使用ID3算法的信息增益，<strong>而是使用了信息增益率这个概念。</strong></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;">首先我们来看信息增益率的公式：</p><p style="white-space: normal;"><img data-src="http://mmbiz.qpic.cn/mmbiz_png/nJZZib3qIQW4vnPfz1ftnuLWcEG12oNVNfJNFjDA7CtYRFryiaZpJF8AStibXdDYxcvddT1icYXA8nic6pPEHLuFWpg/0" data-ratio="0.19859402460456943" data-w="569"  /></p><p style="white-space: normal; line-height: 2em;"><noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;img src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic2.zhimg.com/v2-36cd923132e4a8180dba16c74c7dc9dd_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawwidth=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;569&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawheight=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;113&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; class=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;origin_image zh-lightbox-thumb&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; width=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;569&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-original=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic2.zhimg.com/v2-36cd923132e4a8180dba16c74c7dc9dd_r.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; _src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic2.zhimg.com/v2-36cd923132e4a8180dba16c74c7dc9dd_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;/&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><span style="color: #FF0000;"><strong>由上图我们可以看出，信息增益率=信息增益/IV(a),说明信息增益率是信息增益除了一个属性a的固有值得来的。</strong></span></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;"><strong>我们一开始分析到，</strong>信息增益准则其实是对可取值数目较多的属性有所偏好！（<span style="color: #FF0000;"><strong>比如上面提到的编号，如果选取编号属性，每一个子节点只有一个实例，可取值数目是最多，而且子节点纯度最高《只有一个类别》，导致信息增益最大，所以我们会倾向于选他，但是已经分析了这种树是不具备泛化能力的</strong></span>）。</p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;">但是刚刚我们分析到了，信息增益并不是一个很好的特征选择度量。于是我们引出了信息增益率。</p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;">我们来看IV(a)的公式：</p><p style="white-space: normal; line-height: 2em;">属性a的固有值：</p><noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;img src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic4.zhimg.com/v2-812104c0291d20935e910919a9fa5c27_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawwidth=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;505&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-rawheight=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;124&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; class=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;origin_image zh-lightbox-thumb&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; width=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;505&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; data-original=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic4.zhimg.com/v2-812104c0291d20935e910919a9fa5c27_r.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; _src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pic4.zhimg.com/v2-812104c0291d20935e910919a9fa5c27_b.png&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;/&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><p style="white-space: normal;"><img data-src="http://mmbiz.qpic.cn/mmbiz_png/nJZZib3qIQW4vnPfz1ftnuLWcEG12oNVNKZvyVSnSDxEsKl9gpYZZLOAIWdegQadQYlhDBng0QNA4ibqNEhKiagzg/0" data-ratio="0.24554455445544554" data-w="505"  /></p><p style="white-space: normal; line-height: 2em;">IV(触感) = 0.874 ( V = 2 )</p><p style="white-space: normal; line-height: 2em;">IV(色泽) = 1.580 ( V = 3 )</p><p style="white-space: normal; line-height: 2em;">IV(编号) =
+4.088 ( V = 17 )<br  /></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;">由上面的计算例子，可以看出IV(a)其实能够反映出，当选取该属性，分成的V类别数越大，IV(a)就越大，如果仅仅只用信息增益来选择属性的话，那么我们偏向于选择分成子节点类别大的那个特征。</p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;"><strong>但是在前面分析了，并不是很好，所以我们需要除以一个属性的固定值，<span style="color: rgb(255, 0, 0);">这个值要求随着分成的类别数越大而越小。于是让它做了分母。</span></strong></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;"><strong>这样可以避免信息增益的缺点。</strong></p><p style="white-space: normal; line-height: 2em;"><strong>因为一开始我仅仅用信息增益作为我的选择目标，但是会出现“编号”这些使得类别数目多的属性选择，但是又不具有泛化能力，所以我给他除以一个值（这个值）随着你分的类别越多，我就越大，一定程度上缓解了信息增益的缺点</strong></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;"><strong><span style="color: #FF0000;">那么信息增益率就是完美无瑕的吗？</span></strong></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;">当然不是，有了这个分母之后，我们可以看到增益率准则其实对可取类别数目较少的特征有所偏好！</p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;">毕竟分母越小，整体越大。</p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;">所以C4.5算法不直接选择增益率最大的候选划分属性，候选划分属性中找出信息增益高于平均水平的属性（<span style="color: rgb(255, 0, 0); text-decoration: underline;"><strong>这样保证了大部分好的的特征</strong></span>），再从中选择增益率最高的（<span style="text-decoration: underline; color: rgb(255, 0, 0);"><strong>又保证了不会出现编号特征这种极端的情况</strong></span>）</p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 2em;">好的，ID3算法和C4.5算法的基本内容就讲完了，希望对大家有帮助~</p><p style="white-space: normal;"><br  /></p><p style="white-space: normal;">参考：</p><p style="white-space: normal;">周志华《机器学习》，例子来源于书籍</p><p style="white-space: normal;">德川《全体机器学习会slides》，很多都是总结于ppt</p><p style="white-space: normal;"><br  /></p><p style="white-space: normal;">致谢：</p><p style="white-space: normal;">德川，宇轩师兄</p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; text-align: center;"><strong><span style="color: rgb(255, 0, 0);">推荐文章阅读：</span></strong></p><p style="white-space: normal; text-align: left;"><strong><span style="color: rgb(255, 0, 0);"><a href="http://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&amp;mid=2247483909&amp;idx=1&amp;sn=5d5d3ea5b7327b882f2d6ddcd24866b5&amp;chksm=ebb43ad1dcc3b3c751d89a86f4f42c42c5c84f668d4b30355d8eb9ad8492e9e9cdde24271d20&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&amp;mid=2247483909&amp;idx=1&amp;sn=5d5d3ea5b7327b882f2d6ddcd24866b5&amp;chksm=ebb43ad1dcc3b3c751d89a86f4f42c42c5c84f668d4b30355d8eb9ad8492e9e9cdde24271d20&amp;scene=21#wechat_redirect">深入浅出理解决策树算法（一）-核心思想</a><br  /></span></strong></p><p style="white-space: normal; text-align: left;"><strong><span style="color: rgb(255, 0, 0);"><a href="http://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&amp;mid=2247483862&amp;idx=1&amp;sn=1b77aee222ccc1a0f39660d9e84bddb2&amp;chksm=ebb43902dcc3b014451a3994bda9e0d42a743ced86bc24626ad4dd9a0ff2acff30ded12ce074&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&amp;mid=2247483862&amp;idx=1&amp;sn=1b77aee222ccc1a0f39660d9e84bddb2&amp;chksm=ebb43902dcc3b014451a3994bda9e0d42a743ced86bc24626ad4dd9a0ff2acff30ded12ce074&amp;scene=21#wechat_redirect">通俗理解信息熵</a><br  /></span></strong></p><p style="white-space: normal; text-align: left;"><strong><span style="color: rgb(255, 0, 0);"><a href="http://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&amp;mid=2247483874&amp;idx=1&amp;sn=70dd52f9a18a157e7bc8d6bec6789551&amp;chksm=ebb43936dcc3b0204634346e4d710a94743605d8d867508406e359aadcd452535a312ba2fc88&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&amp;mid=2247483874&amp;idx=1&amp;sn=70dd52f9a18a157e7bc8d6bec6789551&amp;chksm=ebb43936dcc3b0204634346e4d710a94743605d8d867508406e359aadcd452535a312ba2fc88&amp;scene=21#wechat_redirect">通俗理解条件熵</a><br  /></span></strong></p><p style="white-space: normal; text-align: left;"><strong><span style="color: rgb(255, 0, 0);"><a href="http://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&amp;mid=2247483771&amp;idx=1&amp;sn=e8cc00032205a73584867e85aa509a64&amp;chksm=ebb439afdcc3b0b9bb4446bc874def2962886b6db112171c2c8fd73d1dc5d51ad27fb49d5ffd&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&amp;mid=2247483771&amp;idx=1&amp;sn=e8cc00032205a73584867e85aa509a64&amp;chksm=ebb439afdcc3b0b9bb4446bc874def2962886b6db112171c2c8fd73d1dc5d51ad27fb49d5ffd&amp;scene=21#wechat_redirect">一文搞懂k近邻（k-NN）算法（一）</a><br  /></span></strong></p><p style="white-space: normal; text-align: left;"><strong><span style="color: rgb(255, 0, 0);"><a href="http://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&amp;mid=2247483819&amp;idx=1&amp;sn=7f1859c0a00248a4c658fa65f846f341&amp;chksm=ebb4397fdcc3b06933816770b928355eb9119c4c80a1148b92a42dc3c08de5098fd6f278e61e&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&amp;mid=2247483819&amp;idx=1&amp;sn=7f1859c0a00248a4c658fa65f846f341&amp;chksm=ebb4397fdcc3b06933816770b928355eb9119c4c80a1148b92a42dc3c08de5098fd6f278e61e&amp;scene=21#wechat_redirect">带你搞懂朴素贝叶斯分类算法</a><br  /></span></strong></p><p style="white-space: normal; text-align: left;"><strong><span style="color: rgb(255, 0, 0);"><br  /></span></strong></p><p style="white-space: normal; text-align: center;"><font color="#ff0000"><b>近期文章预告：</b></font></p><p style="white-space: normal; text-align: left;"><font color="#ff0000"><b>《深入浅出讲解隐马尔科夫模型》</b></font></p><p style="white-space: normal; text-align: left;"><font color="#ff0000"><b>《深入浅出讲解支持向量机》</b></font></p><p style="white-space: normal; text-align: left;"><font color="#ff0000"><b>《深入浅出讲解最大熵模型》</b></font></p><p style="white-space: normal; text-align: left;"><span style="color: rgb(255, 0, 0);"><br  /></span></p><p style="white-space: normal;"><br  /></p><section class="_135editor" data-tools="135编辑器" data-id="86456" style="border-width: 0px; border-style: none; border-color: initial; padding: 0px; box-sizing: border-box;"><section style="margin: 5px auto;" class="layout"><section style="margin: -0.9em 0.1em; padding: 0.8em; color: rgb(131, 87, 87); background-color: rgb(247, 247, 248); box-sizing: border-box;" data-bgless="lighten" data-bglessp="15%"><section class="135brush" style="color: rgb(51, 51, 51); font-size: 1em; line-height: 1.4; word-break: break-all;"><p style="white-space: normal; text-align: center;">全是通俗易懂的硬货！只需置顶~欢迎关注交流~</p></section></section><section style="height: 1em;"><section style="height: 100%; width: 1.5em; float: left; border-bottom: 0.15em solid rgb(198, 198, 199); border-top-color: rgb(198, 198, 199); border-right-color: rgb(198, 198, 199); border-left: 0.15em solid rgb(198, 198, 199); box-sizing: border-box;"></section></section></section></section><p style="white-space: normal;"><br  /></p><p style="text-align: center; white-space: normal;"><img data-src="http://mmbiz.qpic.cn/mmbiz_gif/nJZZib3qIQW4vnPfz1ftnuLWcEG12oNVN2a0pXaQz7YYQJDTWomrAL609kanickhdHCyL736daAK9XDic3nYXWQnQ/0?wx_fmt=gif" data-ratio="0.4915254237288136" data-w="590"  /></p><p style="white-space: normal;"><br  /></p></section></section></section>
+                </div>
+                <script nonce="1779067133" type="text/javascript">
+                    var first_sceen__time = (+new Date());
+
+                    if ("" == 1 && document.getElementById('js_content')) {
+                        document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+                    }
+
+                    
+                    (function(){
+                        if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                            var link = document.createElement('link');
+                            var head = document.getElementsByTagName('head')[0];
+                            link.rel = 'stylesheet';
+                            link.type = 'text/css';
+                            link.href = "//res.wx.qq.com/mmbizwap/en_US/htmledition/style/page/appmsg/page_mp_article_improve_winwx315a9c.css";
+                            head.appendChild(link);
+                        }
+                    })();
+                </script>
+                
+                
+                                
+                <div class="ct_mpda_wrp" id="js_sponsor_ad_area" style="display:none;"></div>
+
+                
+                                <div class="reward_area tc" id="js_reward_area" style="display:none;">
+                                        <p class="tips_global reward_tips">希望对您理解有帮助~</p>
+                                        <p>
+                        <a class="reward_access" id='js_reward_link' href="##">Reward</a>
+                    </p>
+                    <div id="js_reward_inner" class="reward_area_inner" style="display:none;">
+                        <p class="tips_global reward_user_tips"><a href="##" id="js_reward_total"></a> people gave a reward</p>
+                        <div id="js_reward_list" class="reward_user_list"></div>
+                    </div>
+                </div>
+                                <div class="reward_qrcode_area reward_area tc" id="js_reward_qrcode" style="display:none;">
+                    <p class="tips_global">长按二维码向我转账</p>
+                                        <p class="reward_tips">希望对您理解有帮助~</p>
+                    <span class="reward_qrcode_img_wrp"><img class="reward_qrcode_img" id="js_reward_qrcode_img"></span>
+                    <p class="tips_global">受苹果公司新规定影响，微信 iOS 版的赞赏功能被关闭，可通过二维码转账支持公众号。</p>
+                </div>
+                                            </div>
+                        
+                        <div class="rich_media_tool" id="js_toobar3">
+                                            <a class="media_tool_meta meta_primary" id="js_view_source" href="##">Read more</a>
+                                <div id="js_read_area3" class="media_tool_meta tips_global meta_primary" style="display:none;">Views <span id="readNum3"></span></div>
+
+                <span style="display:none;" class="media_tool_meta meta_primary tips_global meta_praise" id="like3">
+                    <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum3"></span>
+                </span>
+
+                <a id="js_report_article3" style="display:none;" class="media_tool_meta tips_global meta_extra" href="##">Report</a>
+
+            </div>
+
+
+                    </div>
+
+        <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none"></div>
+
+        
+        <div class="rich_media_area_extra">
+
+            
+                        <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>
+                        
+            <div id="js_iframetest" style="display:none;"></div>
+                        
+                        <div class="rich_media_extra" id="js_cmt_area" style="display:none">
+            </div>
+                    </div>
+
+        
+        <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+            <div class="qr_code_pc_inner">
+                <div class="qr_code_pc">
+                    <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                    <p>Scan QR Code via WeChat <br> to follow Official Account</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="js_minipro_dialog" style="display:none;">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__bd">即将打开"<span id="js_minipro_dialog_name"></span>"小程序</div>
+        <div class="weui-dialog__ft">
+            <a id="js_minipro_dialog_cancel" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_default">取消</a>
+            <a id="js_minipro_dialog_ok" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_primary">打开</a>
+        </div>
+    </div>
+</div>
+
+        
+        <script nonce="1779067133">
+    var __DEBUGINFO = {
+        debug_js : "//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_wap/debug/console34c264.js",
+        safe_js : "//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_wap/safe/moonsafe34c264.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="1779067133">
+(function() {
+	function _addVConsole(uri) {
+		var url = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/' + uri;
+		document.write('<script nonce="1779067133" type="text/javascript" src="' + url + '"><\/script>');
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		_addVConsole('2.5.1/vconsole.min.js');
+		_addVConsole('plugin/vconsole-elements/1.0.2/vconsole-elements.min.js');
+		_addVConsole('plugin/vconsole-sources/1.0.1/vconsole-sources.min.js');
+		_addVConsole('plugin/vconsole-resources/1.0.0/vconsole-resources.min.js');
+		_addVConsole('plugin/vconsole-mpopt/1.0.0/vconsole-mpopt.js');
+	}
+})();
+</script>
+        
+<script nonce="1779067133" type="text/javascript">
+    
+    if (!window.console) window.console = { log: function() {} };
+    
+    if (typeof getComputedStyle == 'undefined') {
+        if (document.body.currentStyle) {
+            window.getComputedStyle = function(el) {
+                return el.currentStyle;
+            }
+        } else {
+            window.getComputedStyle = {};
+        }
+    }
+    var occupyImg = function() {
+        var images = document.getElementsByTagName('img');
+        var length = images.length;
+        var container = document.getElementById('img-content');
+        var max_width = container.offsetWidth;
+        var container_padding = 0;
+        var container_style = getComputedStyle(container);
+        container_padding = parseFloat(container_style.paddingLeft) + parseFloat(container_style.paddingRight);
+        max_width -= container_padding;
+        var ua = navigator.userAgent.toLowerCase();
+        var re = new RegExp("msie ([0-9]+[\.0-9]*)");
+        var version;
+        if (re.exec(ua) != null) {
+            version = parseInt(RegExp.$1);
+        }
+        var isIE = false;
+        if (typeof version != 'undefined' && version >= 6 && version <= 9) {
+            isIE = true;
+        }
+        if (!max_width) {
+            max_width = window.innerWidth - 30;      
+        }
+        for (var i = 0; i < length; ++i) {
+            var src_ = images[i].getAttribute('data-src');
+            var realSrc = images[i].getAttribute('src');
+            if (!src_ || realSrc) continue;
+            var width_ = 1 * images[i].getAttribute('data-w') || max_width;
+            var ratio_ = 1 * images[i].getAttribute('data-ratio');
+            var height = 100;
+            if (ratio_ && ratio_ > 0) {
+                var img_style = getComputedStyle(images[i]);
+                var init_width = images[i].style.width;
+                
+                if (init_width) {
+                    images[i].setAttribute('_width', init_width);
+                    if (init_width != 'auto') width_ = parseFloat(img_style.width);
+                }
+                var parent_width = 0;
+                var parent = images[i].parentNode;
+                var outerWidth = 0;
+                while (true) {
+                    var parent_style = getComputedStyle(parent);
+                    if (!parent || !parent_style) break;
+                    parent_width = parent.clientWidth - parseFloat(parent_style.paddingLeft) - parseFloat(parent_style.paddingRight) - outerWidth;
+                    if (parent_width > 0) break;
+                    outerWidth += parseFloat(parent_style.paddingLeft) + parseFloat(parent_style.paddingRight) + parseFloat(parent_style.marginLeft) + parseFloat(parent_style.marginRight) + parseFloat(parent_style.borderLeftWidth) + parseFloat(parent_style.borderRightWidth);
+                    parent = parent.parentNode;
+                }
+                parent_width = parent_width || max_width;
+                var width = width_ > parent_width ? parent_width : width_; 
+                var img_padding_border = parseFloat(img_style.paddingLeft) + parseFloat(img_style.paddingRight) + parseFloat(img_style.borderLeftWidth) + parseFloat(img_style.borderRightWidth);
+                var img_padding_border_top_bottom = parseFloat(img_style.paddingTop) + parseFloat(img_style.paddingBottom) + parseFloat(img_style.borderTopWidth) + parseFloat(img_style.borderBottomWidth);
+                img_padding_border = img_padding_border || 0;
+                img_padding_border_top_bottom = img_padding_border_top_bottom || 0;
+                height = (width - img_padding_border) * ratio_ + img_padding_border_top_bottom;
+                images[i].style.cssText += ";width: " + width + "px !important;";
+                if (isIE) {
+                    var url = images[i].getAttribute('data-src');
+                    images[i].src = url;
+                } else {
+                    if(width > 40 && height > 40){
+                        images[i].className += ' img_loading';
+                    }
+                    images[i].src = "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+                }
+            } else {
+                images[i].style.cssText += ";visibility: hidden !important;";
+            }
+            images[i].style.cssText += ";height: " + height + "px !important;";
+        }
+    }
+    occupyImg();
+</script>
+<script nonce="1779067133" type="text/javascript">
+
+    var not_in_mm_css = "//res.wx.qq.com/mmbizwap/en_US/htmledition/style/page/appmsg/not_in_mm36906d.css";
+    var windowwx_css = "//res.wx.qq.com/mmbizwap/en_US/htmledition/style/page/appmsg/page_mp_article_improve_winwx315a9c.css";
+    var article_improve_combo_css = "//res.wx.qq.com/mmbizwap/en_US/htmledition/style/page/appmsg/page_mp_article_improve_combo36906d.css";
+    var tid = "";
+    var aid = "";
+    var clientversion = "12020810";
+    var appuin = "MzI4MDYzNzg4Mw=="||"";
+
+    var source = "1";
+    var subscene = "";
+    var abtest_cookie = "";
+
+    var scene = 75;
+
+    var itemidx = "";
+
+    var _copyright_stat = "1";
+    var _ori_article_type = "其他";
+
+    var nickname = "自然语言处理与机器学习";
+    var appmsg_type = "9";
+    var ct = "1494204312";
+    var publish_time = "2017-05-08" || "";
+    var user_name = "gh_0e70efc7cfde";
+    var user_name_new = "";
+    var fakeid   = "";
+    var version   = "";
+    var is_limit_user   = "0";
+    var round_head_img = "http://mmbiz.qpic.cn/mmbiz_png/nJZZib3qIQW5tLRnGzIibmaNTbQD7JticaVLj5ZbDu8sjGAT8xyrHZJMqXNxAyfrGuCpmJUgvVX5qI9dtkmTtFpIg/0?wx_fmt=png";
+    var ori_head_img_url = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM49ghiaRuhZbiccUprgby7F1yRy67eGLMPnyfEy239YMcZQ/132";
+    var msg_title = "深入浅出理解决策树算法（二）-ID3算法与C4.5算法";
+    var msg_desc = "通俗的讲解了决策树中ID3算法与C4.5算法~\x0a欢迎交流~";
+    var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz_jpg/nJZZib3qIQW4vnPfz1ftnuLWcEG12oNVNIMiayCHSLzcVknhk6QMWbqia1C8RbORtAkibofVKC7C60JrPKDw75N0fg/0";
+    var msg_link = "http://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==\x26amp;mid=2247483916\x26amp;idx=1\x26amp;sn=94d48456009debfd73d7dbf209a5167e\x26amp;chksm=ebb43ad8dcc3b3cef607a81b72cb5e25997f612f06c338425bf7e337d803e61e6f8ee6f23eea#rd";
+    var user_uin = "1106637982"*1;
+    var msg_source_url = 'https://zhuanlan.zhihu.com/p/26760551';
+    var img_format = 'jpeg';
+    var srcid = '0627Cog7rmloiFGcIeamZ87o';
+    var req_id = '2714JySH2mARa9vcewszFYsy';
+    var networkType;
+    var appmsgid = '' || '2247483916'|| "";
+    var comment_id = "1773069866" * 1;
+    var comment_enabled = "" * 1;
+    var is_need_reward = "1" * 1;
+    var is_https_res = ("" * 1) && (location.protocol == "https:");
+    var msg_daily_idx = "1" || "";
+    var profileReportInfo = "" || "";
+
+    var devicetype = "iMac\x26nbsp;MacBookPro11,4\x26nbsp;OSX\x26nbsp;OSX\x26nbsp;10.12.5\x26nbsp;build(16F73)";
+    var source_encode_biz = "";
+    var source_username = "";
+    
+    var reprint_ticket = "";
+    var source_mid = "";
+    var source_idx = "";
+
+    var show_comment = "0";
+    var __appmsgCgiData = {
+        can_use_page : "0"*1,
+        is_wxg_stuff_uin : "0"*1,
+        card_pos : "",
+        copyright_stat : "1",
+        source_biz : "",
+        hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM49ghiaRuhZbiccUprgby7F1yRy67eGLMPnyfEy239YMcZQ/0"||(window.location.protocol+"//"+window.location.host + "//res.wx.qq.com/mmbizwap/en_US/htmledition/images/pic/appmsg/pic_rumor_link.2x264e77.jpg")
+    };
+    var _empty_v = "//res.wx.qq.com/mmbizwap/en_US/htmledition/images/pic/pages/voice/empty26f1f1.mp3";
+
+    var copyright_stat = "1" * 1;
+
+    var pay_fee = "" * 1;
+    var pay_timestamp = "";
+    var need_pay = "" * 1;
+
+    var need_report_cost = "1" * 1;
+    var use_tx_video_player = "0" * 1;
+    var appmsg_fe_filter = "contenteditable";
+
+    var friend_read_source = "" || "";
+    var friend_read_version = "" || "";
+    var friend_read_class_id = "" || "";
+
+    var is_only_read = "1" * 1;
+    var read_num = "" * 1;
+    var like_num = "" * 1;
+    var liked = "" == 'true' ? true : false;
+    var is_temp_url = "" ? 1 : 0;
+    var send_time = "";
+    var icon_emotion_switch = "//res.wx.qq.com/mmbizwap/en_US/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x2f1273.png";
+    var icon_emotion_switch_active = "//res.wx.qq.com/mmbizwap/en_US/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x2f1273.png";
+    var icon_loading_white = "//res.wx.qq.com/mmbizwap/en_US/htmledition/images/icon/common/icon_loading_white2805ea.gif";
+    var icon_audio_unread = "//res.wx.qq.com/mmbizwap/en_US/htmledition/images/icon/appmsg/audio/icon_audio_unread26f1f1.png";
+    var icon_qqmusic_default = "//res.wx.qq.com/mmbizwap/en_US/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x26f1f1.png";
+    var icon_qqmusic_source = "//res.wx.qq.com/mmbizwap/en_US/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source263727.png";
+
+    var topic_default_img = '//res.wx.qq.com/mmbizwap/en_US/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x2e4988.png';
+    var comment_edit_icon = '//res.wx.qq.com/mmbizwap/en_US/htmledition/images/icon/appmsg/icon_edit25decf.png';
+    var comment_loading_img = '//res.wx.qq.com/mmbizwap/en_US/htmledition/images/icon/common/icon_loading_white2805ea.gif';
+    var voice_in_appmsg = {
+        "1":"1"
+            };
+
+    
+    
+    
+    
+
+    
+    var weapp_sn_arr_json = "" || "";
+
+    
+    var ban_scene = "0" * 1;
+
+    var svr_time = "1498544952" * 1;
+    
+    var is_transfer_msg = ""*1||0;
+
+        window.wxtoken = "2199894985";
+        
+    
+    
+    
+    
+    window.is_login = '1' * 1; 
+
+    window.__moon_initcallback = function(){
+        if(!!window.__initCatch){
+            window.__initCatch({
+                idkey : 27611+2,
+                startKey : 0,
+                limit : 128,
+                badjsId: 43,
+                reportOpt : {
+                    uin : uin,
+                    biz : biz,
+                    mid : mid,
+                    idx : idx,
+                    sn  : sn
+                },
+                extInfo : {
+                    network_rate : 0.01,    
+                    badjs_rate: 0.1 
+                }
+            });
+        }
+    }
+    </script>
+
+<script nonce="1779067133" type="text/javascript">
+(function(){
+    window.__logClientLog = function(msg){
+        try{
+            var method;
+            if(/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)){
+                method = 'writeLog';
+            }else if(/(Android)/i.test(navigator.userAgent)){
+                method = 'log';
+            }
+            if(!!method)
+                doLog(method, msg);
+        }catch(e){
+            console.error(e)
+            throw e
+        }
+    }
+    function doLog(method, msg){
+        if(!!method && !!top.window.WeixinJSBridge && !!top.window.WeixinJSBridge.invoke){
+            top.window.WeixinJSBridge.invoke(method, {
+                "level" : 'info',
+                "msg" : "[WechatFe][appmsg]" + msg
+            });
+        }else{
+            
+            setTimeout(function(){
+                if( top.window.document.addEventListener ){
+                    top.window.document.addEventListener('WeixinJSBridgeReady', function(){
+                        doLog(method,msg)
+                    }, false);
+                }else if (top.window.document.attachEvent){
+                    top.window.document.attachEvent('WeixinJSBridgeReady', function(){
+                        doLog(method, msg)
+                    }); 
+                    top.window.document.attachEvent('onWeixinJSBridgeReady', function(){
+                        doLog(method, msg)
+                    });
+                }
+            }, 0)
+        }
+    }
+    window.__moonErrRep = function(src){
+        window.__logClientLog(' moon load err ' + src);
+    }
+    window.__moonSucRep = function(src){
+        window.__logClientLog(' moon load suc ' + src);
+    }
+    window.setTimeout(function(){
+        window.__logClientLog(' index.html end, __moonhasinit : ' + window.__moonhasinit);
+    }, 500);
+})();
+</script>
+
+
+        <script nonce="1779067133">window.__moon_host = 'res.wx.qq.com';window.__moon_mainjs = 'appmsg/index.js';window.moon_map = {"new_video/player.html.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/new_video/player.html364802.js","biz_wap/zepto/touch.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_wap/zepto/touch34c264.js","biz_wap/zepto/event.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_wap/zepto/event34c264.js","biz_wap/zepto/zepto.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_wap/zepto/zepto34c264.js","page/pages/video.css":"//res.wx.qq.com/mmbizwap/en_US/htmledition/style/page/pages/video.css36906d.js","a/appdialog_confirm.html.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/a/appdialog_confirm.html34f0d8.js","widget/wx_profile_dialog_primary.css":"//res.wx.qq.com/mmbizwap/en_US/htmledition/style/widget/wx_profile_dialog_primary.css34f0d8.js","appmsg/emotion/caret.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/emotion/caret278965.js","new_video/player.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/new_video/player364802.js","a/appdialog_confirm.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/a/appdialog_confirm34c32b.js","biz_wap/jsapi/cardticket.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_wap/jsapi/cardticket34c264.js","biz_common/utils/emoji_panel_data.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_common/utils/emoji_panel_data3518c7.js","biz_common/utils/emoji_data.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_common/utils/emoji_data3518c7.js","appmsg/emotion/textarea.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/emotion/textarea353f34.js","appmsg/emotion/nav.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/emotion/nav278965.js","appmsg/emotion/common.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/emotion/common3518c7.js","appmsg/emotion/slide.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/emotion/slide2a9cd9.js","pages/report.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/pages/report358df0.js","pages/music_player.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/pages/music_player36a181.js","pages/loadscript.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/pages/loadscript30203e.js","appmsg/emotion/dom.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/emotion/dom31ff31.js","appmsg/comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/comment_tpl.html36b915.js","biz_wap/utils/fakehash.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_wap/utils/fakehash34c264.js","biz_common/utils/wxgspeedsdk.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_common/utils/wxgspeedsdk3518c7.js","a/sponsor.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/a/sponsor364802.js","a/app_card.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/a/app_card367ed3.js","a/ios.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/a/ios333f3e.js","a/android.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/a/android2c5484.js","a/profile.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/a/profile31ff31.js","a/sponsor_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/a/sponsor_a_tpl.html36906d.js","a/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/a/a_tpl.html36906d.js","a/mpshop.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/a/mpshop31117a.js","a/card.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/a/card31117a.js","biz_wap/utils/position.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_wap/utils/position34c264.js","a/a_report.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/a/a_report32e587.js","appmsg/my_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/my_comment_tpl.html36906d.js","appmsg/cmt_tpl.html.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/cmt_tpl.html369d00.js","sougou/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/sougou/a_tpl.html2c6e7c.js","appmsg/emotion/emotion.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/emotion/emotion353f34.js","biz_wap/utils/wapsdk.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_wap/utils/wapsdk34c264.js","biz_common/utils/monitor.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_common/utils/monitor3518c7.js","biz_common/utils/report.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_common/utils/report3518c7.js","appmsg/open_url_with_webview.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/open_url_with_webview3145f1.js","biz_common/utils/http.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_common/utils/http3518c7.js","biz_common/utils/cookie.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_common/utils/cookie3518c7.js","appmsg/topic_tpl.html.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/topic_tpl.html31ff31.js","pages/weapp_tpl.html.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/pages/weapp_tpl.html36906d.js","pages/voice_tpl.html.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/pages/voice_tpl.html36906d.js","pages/voice_component.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/pages/voice_component36a23a.js","pages/qqmusic_tpl.html.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/pages/qqmusic_tpl.html36906d.js","new_video/ctl.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/new_video/ctl2d441f.js","a/testdata.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/a/testdata3640e1.js","appmsg/reward_entry.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/reward_entry36906d.js","appmsg/comment.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/comment369d00.js","appmsg/like.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/like2eb52b.js","pages/version4video.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/pages/version4video358f7c.js","a/a.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/a/a36906d.js","rt/appmsg/getappmsgext.rt.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/rt/appmsg/getappmsgext.rt2c21f7.js","biz_wap/utils/storage.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_wap/utils/storage34c264.js","biz_common/tmpl.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_common/tmpl3518c7.js","appmsg/share_tpl.html.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/share_tpl.html36906d.js","appmsg/img_copyright_tpl.html.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/img_copyright_tpl.html2a2c13.js","pages/video_ctrl.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/pages/video_ctrl3589a1.js","biz_common/ui/imgonepx.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_common/ui/imgonepx3518c7.js","biz_common/utils/respTypes.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_common/utils/respTypes3518c7.js","biz_wap/utils/log.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_wap/utils/log34c264.js","sougou/index.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/sougou/index36913b.js","biz_wap/safe/mutation_observer_report.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_wap/safe/mutation_observer_report34c264.js","appmsg/fereport.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/fereport368f87.js","appmsg/report.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/report3404b3.js","appmsg/report_and_source.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/report_and_source34c49d.js","appmsg/page_pos.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/page_pos366ede.js","appmsg/cdn_speed_report.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/cdn_speed_report3097b2.js","appmsg/wxtopic.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/wxtopic31a3be.js","appmsg/new_index.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/new_index36906d.js","appmsg/weapp.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/weapp3696a5.js","appmsg/voice.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/voice3680e9.js","appmsg/qqmusic.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/qqmusic3654f3.js","appmsg/iframe.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/iframe3589a1.js","appmsg/review_image.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/review_image355a40.js","appmsg/outer_link.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/outer_link275627.js","appmsg/copyright_report.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/copyright_report2ec4b2.js","appmsg/async.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/async36913b.js","biz_wap/ui/lazyload_img.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_wap/ui/lazyload_img35a498.js","biz_common/log/jserr.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_common/log/jserr3518c7.js","appmsg/share.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/share355afc.js","appmsg/cdn_img_lib.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/cdn_img_lib368010.js","biz_common/utils/url/parse.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_common/utils/url/parse3518c7.js","page/appmsg/not_in_mm.css":"//res.wx.qq.com/mmbizwap/en_US/htmledition/style/page/appmsg/not_in_mm.css36906d.js","page/appmsg/page_mp_article_improve_combo.css":"//res.wx.qq.com/mmbizwap/en_US/htmledition/style/page/appmsg/page_mp_article_improve_combo.css36906d.js","page/appmsg_new/not_in_mm.css":"//res.wx.qq.com/mmbizwap/en_US/htmledition/style/page/appmsg_new/not_in_mm.css36906d.js","page/appmsg_new/combo.css":"//res.wx.qq.com/mmbizwap/en_US/htmledition/style/page/appmsg_new/combo.css36b915.js","biz_wap/jsapi/core.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_wap/jsapi/core34c264.js","biz_common/dom/event.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_common/dom/event3518c7.js","appmsg/test.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/test354009.js","biz_wap/utils/mmversion.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_wap/utils/mmversion34c264.js","appmsg/max_age.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/max_age2fdd28.js","biz_common/dom/attr.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_common/dom/attr3518c7.js","biz_wap/utils/ajax.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_wap/utils/ajax34c264.js","appmsg/log.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/log300331.js","biz_common/dom/class.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_common/dom/class3518c7.js","biz_wap/utils/device.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_wap/utils/device34c264.js","biz_common/utils/string/html.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_common/utils/string/html3518c7.js","appmsg/index.js":"//res.wx.qq.com/mmbizwap/en_US/htmledition/js/appmsg/index36b7e1.js"};</script><script nonce="1779067133" type="text/javascript">(function(){function d(a){window.__wxgspeeds.moonls_loadjs_begin=+new Date;var c=document.createElement("script");document.getElementsByTagName("body")[0].appendChild(c);c.type="text/javascript";c.async="async";;c.setAttribute('onerror', 'wx_loaderror');c.onload=function(){a&&f();window.__moonSucRep&&window.__moonSucRep(b)};c.onerror=function(){window.__moonSucRep&&window.____moonSucRep(b)};c.src=b;window.__wxgspeeds.moonls_loadjs_end=+new Date}function f(){window.__wxgspeeds.moonls_save_begin=+new Date;localStorage.setItem("__WXLS__moon",String(__moonf__));localStorage.setItem("__WXLS__moonarg",JSON.stringify({version:b,method:""}));window.__wxgspeeds.moonls_save_end=+new Date}var a=!!top&&!!top.window&&top.window.user_uin||0,e=0!==a&&1>Math.floor(a/100)%100;if(2876363900==a||1506075==a||942807682==a)e=!0;var b="//res.wx.qq.com/mmbizwap/en_US/htmledition/js/biz_wap/moon368f87.js";window.__loadAllResFromMp&&(b=b.replace("res.wx.qq.com","mp.weixin.qq.com"),(new Image).src=location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?idkey=27613_12_1");window.__wxgspeeds||(window.__wxgspeeds={});if("function"==typeof __moonf__)__moonf__(),e&&localStorage&&f();else if(window.__wxgspeeds.moonloadtime=+new Date,e&&localStorage)try{var g=JSON.parse(localStorage.getItem("__WXLS__moonarg"))||{};if(g&&g.version==b){var h=localStorage.getItem("__WXLS__moon");localStorage.setItem("__WXLS__moonarg",JSON.stringify({version:b,method:"fromls"}));window.__moonls_fromls=!0;window.__wxgspeeds.moonls_loadls_end=+new Date;eval(h);__moonf__()}else d(!0)}catch(k){window.__moonls_fail=!0,d(!0)}else d(!1)})();</script>
+<script nonce="1779067133" type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+    
+</script>
+
+    </body>
+    <script nonce="1779067133" type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>
+</html>
+<!--tailTrap<body></body><head></head><html></html>-->

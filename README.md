@@ -51,13 +51,19 @@
 * [grakn.ai](https://grakn.ai)
 * [algorithmia](https://algorithmia.com)
 * [哈工大语言技术平台云](http://www.ltp-cloud.com)
-* [NOUS: Construction, Querying and Reasoning with Knowledge Graphs](https://github.com/streaming-graphs/NOUS)
-* [CN-DBpedia: 复旦·知识图谱API](http://kw.fudan.edu.cn/cndbpedia/intro/)
+* [jieba](https://github.com/fxsjy/jieba)结巴中文分词
+* [THUMT](https://github.com/thumt/THUMT)an open-source neural machine translation toolkit developed by Tsinghua Natural Language Processing Group
+* [NOUS](https://github.com/streaming-graphs/NOUS)Construction, Querying and Reasoning with Knowledge Graphs
+* [CN-DBpedia](http://kw.fudan.edu.cn/cndbpedia/intro/)复旦·知识图谱API
 * [邓范鑫——致力于变革未来的智能技术(个人博客)](http://www.dengfanxin.cn)
+* [Machine Learning for Cyber Security](https://github.com/wtsxDev/Machine-Learning-for-Cyber-Security#table-of-contents)Datasets, Papers, Books, Talks, Tutorials, Courses, Miscellaneous
+* [Generate c code](https://github.com/thibo73800/deep_generation/tree/master/c_code)
+* [fairseq](https://github.com/facebookresearch/fairseq)Facebook AI Research Sequence-to-Sequence Toolkit 
+* [PHP-ML](https://github.com/php-ai/php-ml)Machine Learning library for PHP
 * [开发者头条](https://toutiao.io/explore)
-* [WordNet: A lexical database for English](https://wordnet.princeton.edu)
+* [WordNet](https://wordnet.princeton.edu)A lexical database for English
 * [DeepMind](https://deepmind.com)
-* [ConvNetJS: Deep Learning in your browser](http://cs.stanford.edu/people/karpathy/convnetjs/)
+* [ConvNetJS](http://cs.stanford.edu/people/karpathy/convnetjs/)Deep Learning in your browser
 * [betafaceapi](https://www.betafaceapi.com/wpa/)
 * [Kesci](https://www.kesci.com)
-* [rsync: fast incremental file transfer tool](https://rsync.samba.org)
+* [rsync](https://rsync.samba.org)fast incremental file transfer tool

@@ -22,7 +22,9 @@
 * [Poll](http://www.cnblogs.com/maybe2030)
 * [邓范鑫——致力于变革未来的智能技术(个人博客)](http://www.dengfanxin.cn)
 * [开发者头条](https://toutiao.io/explore)
-
+* [Chris McCormick Machine Learning](http://mccormickml.com)
+* [ml4a](http://ml4a.github.io/index/) Machine Learning for Artists
+* [TensorFlow 官方文档中文版](http://wiki.jikexueyuan.com/project/tensorflow-zh/)
 ## Courses or Tutorials
 
 * [Machine Learning - Coursera](https://www.coursera.org/learn/machine-learning/home/welcome) Fundamental ML
@@ -39,7 +41,8 @@
 
 * [机器学习常见算法分类汇总](https://mp.weixin.qq.com/s?__biz=MzA4MDczMTMzNA==&mid=2653753594&idx=1&sn=73e37ba1e6473cb3a6ffcc3fd168e301)
 * [Vanishing Gradient Problem](https://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&mid=2247484035&idx=1&sn=4d657a78a935bdd830004b95e130a48d)
-
+* [GAN入门教程](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247486357&idx=1&sn=9194cf0a383d9f38d63ee661e72ecbfc)
+* [【深度神经网络压缩】Deep Compression （ICLR2016 Best Paper）](https://zhuanlan.zhihu.com/p/21574328?refer=cyh24)
 ## Papers
 ### GAN
 * [really-awesome-gan](https://github.com/nightrome/really-awesome-gan) Collection of GAN papers
@@ -72,3 +75,8 @@
 * [Kesci](https://www.kesci.com)
 * [rsync](https://rsync.samba.org) - fast incremental file transfer tool
 * [Deep Learning](http://deeplearning.net)
+* [toronto university ML](http://www.cs.toronto.edu:40292)
+* [大牛们的blog （人工智能与机器学习）](http://blog.csdn.net/xiaxiazls/article/details/7237373)
+* [lab@grapeot.me](http://lab.grapeot.me)
+* [kaggle-past-solutions](http://ndres.me/kaggle-past-solutions/)
+* [NIPS(Neural Information Processing Systems) paper](https://papers.nips.cc)

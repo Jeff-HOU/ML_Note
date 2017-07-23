@@ -40,6 +40,7 @@
 * [generative-adversarial-networks](https://github.com/jonbruner/generative-adversarial-networks) Fundamental GAN
 * [Nvidia Deep Learning Education](https://www.nvidia.com/en-us/deep-learning-ai/education/)
 * [DeepLearningTutorials](https://github.com/lisa-lab/DeepLearningTutorials/blob/master/code/DBN.py) written in ```theano```
+
 ## Articles
 
 * [机器学习常见算法分类汇总](https://mp.weixin.qq.com/s?__biz=MzA4MDczMTMzNA==&mid=2653753594&idx=1&sn=73e37ba1e6473cb3a6ffcc3fd168e301)
@@ -64,7 +65,7 @@
 
 * [grakn.ai](https://grakn.ai)
 * [algorithmia](https://algorithmia.com)
-* [哈工大语言技术平台云](http://www.ltp-cloud.com), [新注册的ai域名](ltp.ai)
+* [哈工大语言技术平台云](http://www.ltp-cloud.com), [新注册的ai域名](http://ltp.ai)
 * [jieba](https://github.com/fxsjy/jieba) - 结巴中文分词
 * [THUMT](https://github.com/thumt/THUMT) - an open-source neural machine translation toolkit developed by Tsinghua Natural Language Processing Group
 * [NOUS](https://github.com/streaming-graphs/NOUS) - Construction, Querying and Reasoning with Knowledge Graphs
@@ -80,7 +81,7 @@
 * [Kesci](https://www.kesci.com)
 * [rsync](https://rsync.samba.org) - fast incremental file transfer tool
 * [Deep Learning](http://deeplearning.net)
-* [toronto university ML](http://www.cs.toronto.edu:40292)
+* [Toronto University ML](http://www.cs.toronto.edu:40292)
 * [大牛们的blog （人工智能与机器学习）](http://blog.csdn.net/xiaxiazls/article/details/7237373)
 * [lab@grapeot.me](http://lab.grapeot.me)
 * [kaggle-past-solutions](http://ndres.me/kaggle-past-solutions/)

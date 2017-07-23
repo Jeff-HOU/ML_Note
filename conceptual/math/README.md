@@ -6,3 +6,5 @@
 * [傅里叶变换](https://zhuanlan.zhihu.com/p/19763358)
 * [「协方差」与「相关系数」](https://www.zhihu.com/question/20852004)
 * [机器学习中的常用分布](http://blog.csdn.net/tjy1220646144/article/details/44776473)
+* [上确界、下确界与最大值、最小值的区别](http://www.mathchina.net/dvbbs/dispbbs.asp?boardid=4&Id=3199), [backup](4.gif)
+* [上确界与上极限有什么异同](https://www.zhihu.com/question/19921998), [backup](5.png)

@@ -6,6 +6,7 @@
 > But I will try to make it universally applicable later.
 
 **You may want to [search](search.html)**
+**Or [Contibute](CONTRIBUTING.md)**
 
 ## Conceptual - Study Fields
 * [Math](conceptual/math)
@@ -40,6 +41,7 @@
 * [generative-adversarial-networks](https://github.com/jonbruner/generative-adversarial-networks) Fundamental GAN
 * [Nvidia Deep Learning Education](https://www.nvidia.com/en-us/deep-learning-ai/education/)
 * [DeepLearningTutorials](https://github.com/lisa-lab/DeepLearningTutorials/blob/master/code/DBN.py) written in ```theano```
+* [中文 Python 笔记](http://lijin-thu.github.io) Tutorials for Python 基础与进阶, Numpy, Scipy, Matplotlib, Cython, OOP, Theano, Pandas and many other useful moudules for python
 
 ## Articles
 
@@ -91,3 +93,4 @@
 * [Google A.I. Experiments](https://aiexperiments.withgoogle.com)
 * [YodaQA](http://ailao.eu/yodaqa/) open source question answering system
 * [Text Mining Online](http://textminingonline.com)
+* [Stanford.NLP.NET](https://github.com/sergey-tihon/Stanford.NLP.NET), [简单说明](https://mp.weixin.qq.com/s?__biz=MzA4NzE1NzYyMw==&mid=2247492372&idx=5&sn=119a7a9fe2ef47c1a78dc38f9c9626a0)

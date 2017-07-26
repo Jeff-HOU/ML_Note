@@ -6,7 +6,7 @@
 > But I will try to make it universally applicable later.
 
 **You may want to [search](search.html)**
-**Or [Contibute](CONTRIBUTING.md)**
+**Or [Contibute](assets/contributing)**
 
 ## Conceptual - Study Fields
 * [Math](conceptual/math)

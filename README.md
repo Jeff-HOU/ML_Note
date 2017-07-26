@@ -5,8 +5,7 @@
 > This note might be confusing to you since it is just a "personal" learning note.
 > But I will try to make it universally applicable later.
 
-**You may want to [search](search.html)**
-**Or [Contibute](assets/contributing)**
+You may want to **[search](search.html)** or **[contibute](assets/contributing)**
 
 ## Conceptual - Study Fields
 * [Math](conceptual/math)

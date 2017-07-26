@@ -1,4 +1,4 @@
-* Contributing instruction
+# Contributing instruction
 
 To make this notebook universially applicable and helpful, you are all welcomed to construct it with me!
 

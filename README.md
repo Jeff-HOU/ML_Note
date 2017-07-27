@@ -2,8 +2,9 @@
 > A personal note in my process of learning ML.
 > Feel free to contact me at <jeff-houkj@qq.com> if you are interested.
 
-> This note might be confusing to you since it is just a "personal" learning note.
+> This note might be confusing to you now since I fail to come up with an idea to organize it.
 > But I will try to make it universally applicable later.
+> If you can't wait any more to study ML, maybe I can suggest you a pathway by email.
 
 You may want to **[search](search.html)** or **[contibute](assets/contributing)**
 
@@ -93,3 +94,11 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [YodaQA](http://ailao.eu/yodaqa/) open source question answering system
 * [Text Mining Online](http://textminingonline.com)
 * [Stanford.NLP.NET](https://github.com/sergey-tihon/Stanford.NLP.NET), [简单说明](https://mp.weixin.qq.com/s?__biz=MzA4NzE1NzYyMw==&mid=2247492372&idx=5&sn=119a7a9fe2ef47c1a78dc38f9c9626a0)
+
+## Datasets
+
+* [AWS Public Datasets](https://aws.amazon.com/public-datasets/)
+* [SF OpenData](https://datasf.org/opendata/)
+* [Google cluster workload traces](https://github.com/google/cluster-data)
+* [Kaggle dataset](https://www.kaggle.com/datasets)
+

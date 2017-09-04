@@ -28,6 +28,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [TensorFlow 官方文档中文版](http://wiki.jikexueyuan.com/project/tensorflow-zh/)
 * [handong1587's blog](https://handong1587.github.io)
 
+
 ## Courses and Tutorials
 
 * [Machine Learning - Coursera](https://www.coursera.org/learn/machine-learning/home/welcome) Fundamental ML
@@ -40,7 +41,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [Stanford CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io)
 * [generative-adversarial-networks](https://github.com/jonbruner/generative-adversarial-networks) Fundamental GAN
 * [Nvidia Deep Learning Education](https://www.nvidia.com/en-us/deep-learning-ai/education/)
-* [DeepLearningTutorials](https://github.com/lisa-lab/DeepLearningTutorials/blob/master/code/DBN.py) written in ```theano```
+* [DeepLearningTutorials](https://github.com/lisa-lab/DeepLearningTutorials) written in ```theano```
 * [中文 Python 笔记](http://lijin-thu.github.io) Tutorials for Python 基础与进阶, Numpy, Scipy, Matplotlib, Cython, OOP, Theano, Pandas and many other useful moudules for python
 
 ## Articles
@@ -55,7 +56,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 ### GAN
 * [really-awesome-gan](https://github.com/nightrome/really-awesome-gan) Collection of GAN papers
 * [AdversarialNetsPapers](https://github.com/zhangqianhui/AdversarialNetsPapers) Collection of GAN papers
-
+* [short summaries of some machine learning papers](https://github.com/aleju/papers)
 
 ### NLP
 * [R-NET: Machine Reading Comprehension with Self-matching Networks](paper/nlp/1.pdf)
@@ -94,6 +95,11 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [YodaQA](http://ailao.eu/yodaqa/) open source question answering system
 * [Text Mining Online](http://textminingonline.com)
 * [Stanford.NLP.NET](https://github.com/sergey-tihon/Stanford.NLP.NET), [简单说明](https://mp.weixin.qq.com/s?__biz=MzA4NzE1NzYyMw==&mid=2247492372&idx=5&sn=119a7a9fe2ef47c1a78dc38f9c9626a0)
+* [Neo4j](https://neo4j.com) graph database
+* [cayley](https://github.com/cayleygraph/cayley)An open-source graph database
+* [pyley](https://github.com/ziyasal/pyley)Python client for an open-source graph database Cayley
+* [AI商用搜索](https://handbook.jiqizhixin.com)AI商用搜索——By 机器之心
+* [Green Screen](https://greenscreen-ai.boorgle.com)自动抠图, [Article](https://medium.com/towards-data-science/background-removal-with-deep-learning-c4f2104b3157)
 
 ## Datasets
 

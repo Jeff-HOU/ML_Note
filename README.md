@@ -9,6 +9,7 @@
 You may want to **[search](search.html)** or **[contibute](assets/contributing)**
 
 ## Conceptual - Study Fields
+
 * [Math](conceptual/math)
 * [Basic](conceptual/basic)
 * [Information theory](conceptual/information_theory)
@@ -17,6 +18,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [Miscellaneous](conceptual/miscellaneous)
 
 ## Personal blogs and official accounts etc.
+
 * [Andrew Ng](https://www.facebook.com/andrew.ng.96)
 * [Xf Mao](https://www.zhihu.com/people/mao-xiao-feng-29-7/answers)
 * [xf__mao](http://blog.csdn.net/mao_xiao_feng)
@@ -27,7 +29,8 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [ml4a](http://ml4a.github.io/index/) Machine Learning for Artists
 * [TensorFlow 官方文档中文版](http://wiki.jikexueyuan.com/project/tensorflow-zh/)
 * [handong1587's blog](https://handong1587.github.io)
-
+* [Daniel Holden](http://theorangeduck.com)researcher at Ubisoft Montreal
+* [《机器学习实战》学习笔记](http://www.cnblogs.com/qwertWZ/p/4510859.html)
 
 ## Courses and Tutorials
 
@@ -43,6 +46,11 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [Nvidia Deep Learning Education](https://www.nvidia.com/en-us/deep-learning-ai/education/)
 * [DeepLearningTutorials](https://github.com/lisa-lab/DeepLearningTutorials) written in ```theano```
 * [中文 Python 笔记](http://lijin-thu.github.io) Tutorials for Python 基础与进阶, Numpy, Scipy, Matplotlib, Cython, OOP, Theano, Pandas and many other useful moudules for python
+* [Computer Vision](http://cs.nyu.edu/~fergus/teaching/vision_2012/)NYU Fall 2012
+* [动手学深度学习](http://zh.gluon.ai)李沐: Learning Deep Learning using Apache MXNet (incubating) 's latest API –––– gluon
+* [deeplearningbook](http://www.deeplearningbook.org)
+* [deeplearningbook-chinese](https://github.com/exacity/deeplearningbook-chinese)
+* [DeepLearningBook读书笔记](https://github.com/exacity/simplified-deeplearning)
 
 ## Articles
 
@@ -51,6 +59,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [GAN入门教程](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247486357&idx=1&sn=9194cf0a383d9f38d63ee661e72ecbfc)
 * [【深度神经网络压缩】Deep Compression （ICLR2016 Best Paper）](https://zhuanlan.zhihu.com/p/21574328?refer=cyh24)
 * [Complete Guide to Parameter Tuning in XGBoost (with codes in Python)](https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/)
+* [When does parameter-sharing in recurrent neural networks make sense?](https://www.quora.com/When-does-parameter-sharing-in-recurrent-neural-networks-make-sense)
 
 ## Papers
 ### GAN
@@ -63,6 +72,9 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 
 ### Miscellaneous
 * [DeepCodingBaselines](https://github.com/DeepSE/DeepCodingBaselines) Collection of ML papers on Code Completion, Dialogue, Bug Localization, Code Clone Detection, Commit Summarization, Bug Fix and Overrun Detect
+* [Action Recognition using Visual Attention](https://github.com/kracwarlock/action-recognition-visual-attention)
+* [深度学习的9篇开山之作](https://mp.weixin.qq.com/s?__biz=MjM5MTQzNzU2NA==&mid=2651652247&idx=1&sn=e0d25dba230930c1913a5eae7ab1cef2)
+* [deep-learning-papers](https://github.com/sbrugman/deep-learning-papers)
 
 ## Webs or APIs
 
@@ -100,6 +112,10 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [pyley](https://github.com/ziyasal/pyley)Python client for an open-source graph database Cayley
 * [AI商用搜索](https://handbook.jiqizhixin.com)AI商用搜索——By 机器之心
 * [Green Screen](https://greenscreen-ai.boorgle.com)自动抠图, [Article](https://medium.com/towards-data-science/background-removal-with-deep-learning-c4f2104b3157)
+* [OpenKG.CN](http://openkg.cn)中文开放知识图谱
+* [paddlepaddle](http://www.paddlepaddle.org)PArallel Distributed Deep LEarning –––– Deep Learning APIs by Baidu
+* [MachineLearning](https://github.com/allmachinelearning/MachineLearning)
+* [ONNX](https://github.com/onnx/onnx)Open Neural Network Exchange. [import module for Caffe2](https://github.com/onnx/onnx-caffe2), [export a network from PyTorch to ONNX](http://pytorch.org/…/adva…/super_resolution_with_caffe2.html)
 
 ## Datasets
 
@@ -107,4 +123,4 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [SF OpenData](https://datasf.org/opendata/)
 * [Google cluster workload traces](https://github.com/google/cluster-data)
 * [Kaggle dataset](https://www.kaggle.com/datasets)
-
+* [Experimental Data for Question Classification](http://cogcomp.org/Data/QA/QC/)

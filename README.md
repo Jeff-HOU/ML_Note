@@ -116,6 +116,12 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [paddlepaddle](http://www.paddlepaddle.org)PArallel Distributed Deep LEarning –––– Deep Learning APIs by Baidu
 * [MachineLearning](https://github.com/allmachinelearning/MachineLearning)
 * [ONNX](https://github.com/onnx/onnx)Open Neural Network Exchange. [import module for Caffe2](https://github.com/onnx/onnx-caffe2), [export a network from PyTorch to ONNX](http://pytorch.org/…/adva…/super_resolution_with_caffe2.html)
+* [Sequoia 2000 FTP server home page](http://s2k-ftp.cs.berkeley.edu)
+* [Game Agent Framework](https://github.com/SerpentAI/SerpentAI), [http://serpent.ai](http://serpent.ai)
+* [哈工大科大讯飞联合实验室](http://hfl.iflytek.com)
+* [OPENML](https://www.openml.org)
+* [Baidu MDL](https://github.com/baidu/mobile-deep-learning) Mobile Deep Learning
+* [ML Showcase](https://ml-showcase.com)
 
 ## Datasets
 
@@ -124,3 +130,8 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [Google cluster workload traces](https://github.com/google/cluster-data)
 * [Kaggle dataset](https://www.kaggle.com/datasets)
 * [Experimental Data for Question Classification](http://cogcomp.org/Data/QA/QC/)
+* [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
+* [Network data](http://www-personal.umich.edu/~mejn/netdata/)
+* [iPinYou Real-Time Bidding Dataset for Computational Advertising Research](http://data.computational-advertising.org)
+* [Chinese Cloze-style RC Dataset: People Daily & Children's Fairy Tale](https://github.com/ymcui/Chinese-RC-Dataset)
+* [Million Song Dataset](https://labrosa.ee.columbia.edu/millionsong/)

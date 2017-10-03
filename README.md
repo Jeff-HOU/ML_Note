@@ -108,21 +108,23 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [YodaQA](http://ailao.eu/yodaqa/) open source question answering system
 * [Text Mining Online](http://textminingonline.com)
 * [Stanford.NLP.NET](https://github.com/sergey-tihon/Stanford.NLP.NET), [简单说明](https://mp.weixin.qq.com/s?__biz=MzA4NzE1NzYyMw==&mid=2247492372&idx=5&sn=119a7a9fe2ef47c1a78dc38f9c9626a0)
-* [Neo4j](https://neo4j.com) graph database
-* [cayley](https://github.com/cayleygraph/cayley)An open-source graph database
-* [pyley](https://github.com/ziyasal/pyley)Python client for an open-source graph database Cayley
-* [AI商用搜索](https://handbook.jiqizhixin.com)AI商用搜索——By 机器之心
-* [Green Screen](https://greenscreen-ai.boorgle.com)自动抠图, [Article](https://medium.com/towards-data-science/background-removal-with-deep-learning-c4f2104b3157)
-* [OpenKG.CN](http://openkg.cn)中文开放知识图谱
-* [paddlepaddle](http://www.paddlepaddle.org)PArallel Distributed Deep LEarning –––– Deep Learning APIs by Baidu
+* [Neo4j](https://neo4j.com) - graph database
+* [cayley](https://github.com/cayleygraph/cayley) - An open-source graph database
+* [pyley](https://github.com/ziyasal/pyley) - Python client for an open-source graph database Cayley
+* [AI商用搜索](https://handbook.jiqizhixin.com) - AI商用搜索——By 机器之心
+* [Green Screen](https://greenscreen-ai.boorgle.com) - 自动抠图, [Article](https://medium.com/towards-data-science/background-removal-with-deep-learning-c4f2104b3157)
+* [OpenKG.CN](http://openkg.cn) - 中文开放知识图谱
+* [paddlepaddle](http://www.paddlepaddle.org) - PArallel Distributed Deep LEarning –––– Deep Learning APIs by Baidu
 * [MachineLearning](https://github.com/allmachinelearning/MachineLearning)
-* [ONNX](https://github.com/onnx/onnx)Open Neural Network Exchange. [import module for Caffe2](https://github.com/onnx/onnx-caffe2), [export a network from PyTorch to ONNX](http://pytorch.org/…/adva…/super_resolution_with_caffe2.html)
+* [ONNX](https://github.com/onnx/onnx) - Open Neural Network Exchange. [import module for Caffe2](https://github.com/onnx/onnx-caffe2), [export a network from PyTorch to ONNX](http://pytorch.org/…/adva…/super_resolution_with_caffe2.html)
 * [Sequoia 2000 FTP server home page](http://s2k-ftp.cs.berkeley.edu)
 * [Game Agent Framework](https://github.com/SerpentAI/SerpentAI), [http://serpent.ai](http://serpent.ai)
 * [哈工大科大讯飞联合实验室](http://hfl.iflytek.com)
 * [OPENML](https://www.openml.org)
-* [Baidu MDL](https://github.com/baidu/mobile-deep-learning) Mobile Deep Learning
+* [Baidu MDL](https://github.com/baidu/mobile-deep-learning) - Mobile Deep Learning
 * [ML Showcase](https://ml-showcase.com)
+* [tushare](http://tushare.org/index.html) - 财经数据接口包
+* [52 个超级有用的机器学习与预测接口](http://mp.weixin.qq.com/s/tkkqe1ZYbak4VjUkxYHOoA)
 
 ## Datasets
 

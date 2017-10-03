@@ -73,15 +73,15 @@ var tipuesearch_string_15 = 'Searches related to';
 
 // Internals
 
-var tipuesearch_pages = ["https://jeff-hou.github.io/ML_Note/",
-                         "https://jeff-hou.github.io/ML_Note/conceptual/math/",
-                         "https://jeff-hou.github.io/ML_Note/conceptual/gan/",
-                         "https://jeff-hou.github.io/ML_Note/conceptual/information_theory/",
-                         "https://jeff-hou.github.io/ML_Note/conceptual/math/",
-                         "https://jeff-hou.github.io/ML_Note/conceptual/miscellaneous/",
-                         "https://jeff-hou.github.io/ML_Note/conceptual/nlp/",
-                         "https://jeff-hou.github.io/ML_Note/paper/gan/",
-                         "https://jeff-hou.github.io/ML_Note/nlp/"];
+var tipuesearch_pages = ["./",
+                         "./conceptual/math/",
+                         "./conceptual/gan/",
+                         "./conceptual/information_theory/",
+                         "./conceptual/math/",
+                         "./conceptual/miscellaneous/",
+                         "./conceptual/nlp/",
+                         "./paper/gan/",
+                         "./nlp/"];
 
 // Timer for showTime
 

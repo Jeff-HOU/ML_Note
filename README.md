@@ -1,6 +1,6 @@
 # ML_Note
 > A personal note in my process of learning ML.
-> Feel free to contact me at <jeff-houkj@qq.com> if you are interested.
+> Feel free to contact me at <houkaijun@hotmail.com> if you are interested.
 
 > This note might be confusing to you now since I fail to come up with an idea to organize it.
 > But I will try to make it universally applicable later.
@@ -31,6 +31,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [handong1587's blog](https://handong1587.github.io)
 * [Daniel Holden](http://theorangeduck.com)researcher at Ubisoft Montreal
 * [《机器学习实战》学习笔记](http://www.cnblogs.com/qwertWZ/p/4510859.html)
+* [CURTIS MILLER'S PERSONAL WEBSITE](https://ntguardian.wordpress.com)
 
 ## Courses and Tutorials
 

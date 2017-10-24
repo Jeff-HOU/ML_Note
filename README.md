@@ -32,6 +32,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [Daniel Holden](http://theorangeduck.com)researcher at Ubisoft Montreal
 * [《机器学习实战》学习笔记](http://www.cnblogs.com/qwertWZ/p/4510859.html)
 * [CURTIS MILLER'S PERSONAL WEBSITE](https://ntguardian.wordpress.com)
+* [返回主页 刘建平Pinard](http://www.cnblogs.com/pinard/)
 
 ## Courses and Tutorials
 
@@ -125,6 +126,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [ML Showcase](https://ml-showcase.com)
 * [tushare](http://tushare.org/index.html) - 财经数据接口包
 * [52 个超级有用的机器学习与预测接口](http://mp.weixin.qq.com/s/tkkqe1ZYbak4VjUkxYHOoA)
+* [Losswise](https://losswise.com) - 机器学习项目监控解决方案
 
 ## Datasets
 
@@ -138,3 +140,5 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [iPinYou Real-Time Bidding Dataset for Computational Advertising Research](http://data.computational-advertising.org)
 * [Chinese Cloze-style RC Dataset: People Daily & Children's Fairy Tale](https://github.com/ymcui/Chinese-RC-Dataset)
 * [Million Song Dataset](https://labrosa.ee.columbia.edu/millionsong/)
+* [Chest X-ray](https://nihcc.app.box.com/v/ChestXray-NIHCC/folder/37178474737?date&sortDirection=desc&pageSize=20&pageNumber=0&view=list) provided by National Institutes of Health - Clinical Center
+* [DataSciComp](https://github.com/iphysresearch/DataSciComp) - A collection of popular Data Science Competitions

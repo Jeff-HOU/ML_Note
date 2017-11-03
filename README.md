@@ -53,6 +53,8 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [deeplearningbook](http://www.deeplearningbook.org)
 * [deeplearningbook-chinese](https://github.com/exacity/deeplearningbook-chinese)
 * [DeepLearningBook读书笔记](https://github.com/exacity/simplified-deeplearning)
+* [Oxford Deep NLP 2017 course](https://github.com/oxford-cs-deepnlp-2017/lectures)
+* [Machine Learning and Data Mining](https://www.youtube.com/watch?v=qPhMX0vb6D8&list=PLaXDtXvwY-oDvedS3f4HW0b4KxqpJ_imw) - by University of California in Irvine cs273a
 
 ## Articles
 
@@ -77,6 +79,8 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [Action Recognition using Visual Attention](https://github.com/kracwarlock/action-recognition-visual-attention)
 * [深度学习的9篇开山之作](https://mp.weixin.qq.com/s?__biz=MjM5MTQzNzU2NA==&mid=2651652247&idx=1&sn=e0d25dba230930c1913a5eae7ab1cef2)
 * [deep-learning-papers](https://github.com/sbrugman/deep-learning-papers)
+* [Conference Open Review](https://openreview.net)
+* [Arxiv Sanity Preserver](http://www.arxiv-sanity.com) - Built in spare time by @karpathy to accelerate research, Serving last 36935 papers from cs.[CV|CL|LG|AI|NE]/stat.ML
 
 ## Webs or APIs
 
@@ -127,7 +131,9 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [tushare](http://tushare.org/index.html) - 财经数据接口包
 * [52 个超级有用的机器学习与预测接口](http://mp.weixin.qq.com/s/tkkqe1ZYbak4VjUkxYHOoA)
 * [Losswise](https://losswise.com) - 机器学习项目监控解决方案
-* [call-python-libraries](https://www.mathworks.com/help/matlab/call-python-libraries.html) - Access Python® functionality from MATLAB®
+* [call-python-libraries](https://www.mathworks.com/help/matlab/call-python-libraries.html) - Access Python<sup>®</sup> functionality from MATLAB<sup>®</sup>
+* [tensorpack](https://github.com/ppwwyyxx/tensorpack) - A neural net training interface based on TensorFlow
+* [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/) - have pre-trained word vectors
 
 ## Datasets
 

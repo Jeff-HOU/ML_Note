@@ -8,3 +8,4 @@
 * [幾種常見的MAX POOLING操作](http://www.gegugu.com/2016/04/09/18027.html)
 * [各种RNN介绍](http://blog.csdn.net/heyongluoyao8/article/details/48636251)
 * [All of Recurrent Neural Networks](https://medium.com/@jianqiangma/all-about-recurrent-neural-networks-9e5ae2936f6e)
+* [隐马尔可夫模型](https://www.zhihu.com/question/20962240/answer/33614574) - Hidden Markov Model

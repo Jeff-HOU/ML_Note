@@ -1,5 +1,5 @@
-# ML_Note
-> A personal note in my process of learning ML.
+# ML_Note By Kaijun HOU
+> A personal note in my process of learning Machine Learning.
 > Feel free to contact me at <houkaijun@hotmail.com> if you are interested.
 
 > This note might be confusing to you now since I fail to come up with an idea to organize it.
@@ -8,7 +8,23 @@
 
 You may want to **[search](search.html)** or **[contibute](assets/contributing)**
 
-## Conceptual - Study Fields
+## Table of Contents
+1. [Conceptual](#conceptual)
+2. [Personal blogs and official accounts](#personal-blogs-and-official-accounts)
+3. [Courses and Tutorials](#courses-and-tutorials)
+4. [Articles](#articles)
+5. [Papers](#papers)
+	1. [GAN](#gan)
+	2. [NLP](#nlp)
+	3. [Miscellanous](#miscellanous)
+6. [Webs or APIs](#webs-or-apis)
+	1. [Starting Point](#starting-point)
+	2. [For Python](#for-python)
+	3. [Advanced / Miscellanous](#advanced-/-miscellanous)
+7. [Datasets](#datasets)
+8. [Projects](#projects)
+
+## Conceptual
 
 * [Math](conceptual/math)
 * [Basic](conceptual/basic)
@@ -17,7 +33,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [NLP](conceptual/nlp)
 * [Miscellaneous](conceptual/miscellaneous)
 
-## Personal blogs and official accounts etc.
+## Personal blogs and official accounts
 
 * [Andrew Ng](https://www.facebook.com/andrew.ng.96)
 * [Xf Mao](https://www.zhihu.com/people/mao-xiao-feng-29-7/answers)
@@ -64,6 +80,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [【深度神经网络压缩】Deep Compression （ICLR2016 Best Paper）](https://zhuanlan.zhihu.com/p/21574328?refer=cyh24)
 * [Complete Guide to Parameter Tuning in XGBoost (with codes in Python)](https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/)
 * [When does parameter-sharing in recurrent neural networks make sense?](https://www.quora.com/When-does-parameter-sharing-in-recurrent-neural-networks-make-sense)
+* [如何配置一台适用于深度学习的工作站？](https://www.zhihu.com/question/33996159)
 
 ## Papers
 ### GAN
@@ -83,11 +100,30 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [Arxiv Sanity Preserver](http://www.arxiv-sanity.com) - Built in spare time by @karpathy to accelerate research, Serving last 36935 papers from cs.
 
 ## Webs or APIs
+### Starting Point
+* [Tensorflow](https://www.tensorflow.org)
+* [Keras](https://keras.io) - Keras is now integrated in Tensorflow: [```tf.keras```](https://www.tensorflow.org/api_docs/python/tf/keras)
+* [Pytorch](http://pytorch.org)
+* [Theano](https://github.com/Theano/Theano)
+* [MXNet](https://mxnet.incubator.apache.org)
 
+### For Python
+* [Anaconda](https://anaconda.org) - Machine Learning Package Manager
+* [Brew for MacOS](https://brew.sh), [Brew for Linux](http://linuxbrew.sh)
+* pip - built-in for python, ```pip install pkg_name```, to specify which version of python the pkg is to install for, use ```pip2``` to ```pip3```
+* [Jupyter Notebook](http://jupyter.org)
+* [Scipy](https://www.scipy.org)
+* [Numpy](http://www.numpy.org)
+* [Pandas](http://pandas.pydata.org)
+* [matplotlib](https://matplotlib.org)
+* [scikit-learn](http://scikit-learn.org)
+
+### Advanced / Miscellanous
 * [grakn.ai](https://grakn.ai)
 * [algorithmia](https://algorithmia.com)
 * [哈工大语言技术平台云](http://www.ltp-cloud.com), [新注册的ai域名](http://ltp.ai)
 * [jieba](https://github.com/fxsjy/jieba) - 结巴中文分词
+* [NLTK](http://www.nltk.org)
 * [THUMT](https://github.com/thumt/THUMT) - an open-source neural machine translation toolkit developed by Tsinghua Natural Language Processing Group
 * [NOUS](https://github.com/streaming-graphs/NOUS) - Construction, Querying and Reasoning with Knowledge Graphs
 * [CN-DBpedia](http://kw.fudan.edu.cn/cndbpedia/intro/) - 复旦·知识图谱API
@@ -100,6 +136,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [ConvNetJS](http://cs.stanford.edu/people/karpathy/convnetjs/) - Deep Learning in your browser, by Stanford
 * [betafaceapi](https://www.betafaceapi.com/wpa/)
 * [Kesci](https://www.kesci.com)
+* [XGBoost](https://github.com/dmlc/xgboost)
 * [rsync](https://rsync.samba.org) - fast incremental file transfer tool
 * [Deep Learning](http://deeplearning.net)
 * [Toronto University ML](http://www.cs.toronto.edu:40292)
@@ -137,7 +174,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [Beijing City Lab](https://www.beijingcitylab.com)
 * [知网（HowNet）知识库的简单调用指南](https://mp.weixin.qq.com/s/_AdyRIUazuGrPnzgDYU5gQ)
 * [OpenNE](https://github.com/thunlp/OpenNE) - An open source toolkit for Network Embedding
-* [OpenKE](https://github.com/thunlp/OpenKE) - An Open-Source Package for Knowledge Embedding
+* [OpenKE](https://github.com/thunlp/OpenKE) - An Open-Source Package for Knowledge Embeddingd
 
 ## Datasets
 

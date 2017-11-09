@@ -1,5 +1,5 @@
 # ML_Note
-> A Machine Learning note as a collection of many extremely useful resources.
+> A Machine Learning Resource gathering as a collection of many extremely useful resources.
 > Feel free to contact me at <houkaijun@hotmail.com> if you are interested.
 > I would be really glad if this helps you.
 
@@ -35,7 +35,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [Miscellaneous](conceptual/miscellaneous)
 
 ## Personal blogs and official accounts
-
+* Zhihu topics: [Deep Learning](https://www.zhihu.com/topic/19813032/hot)
 * [Andrew Ng](https://www.facebook.com/andrew.ng.96)
 * [Xf Mao](https://www.zhihu.com/people/mao-xiao-feng-29-7/answers)
 * [xf__mao](http://blog.csdn.net/mao_xiao_feng)
@@ -72,6 +72,8 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [DeepLearningBook读书笔记](https://github.com/exacity/simplified-deeplearning)
 * [Oxford Deep NLP 2017 course](https://github.com/oxford-cs-deepnlp-2017/lectures)
 * [Machine Learning and Data Mining](https://www.youtube.com/watch?v=qPhMX0vb6D8&list=PLaXDtXvwY-oDvedS3f4HW0b4KxqpJ_imw) - by University of California in Irvine cs273a
+* [Scala](https://www.coursera.org/learn/progfun1) - I cannot understand why people love this language. If you have to use this last-choice language, check this course. If you are eager, check [cheetsheet](https://github.com/lampepfl/progfun-wiki/blob/gh-pages/CheatSheet.md)
+* [Udacity](https://www.udacity.com) - too many wonderful courses!
 
 ## Articles
 
@@ -109,22 +111,22 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [MXNet](https://mxnet.incubator.apache.org)
 
 ### For Python
-* [Anaconda](https://anaconda.org) - Machine Learning Package Manager
+* [Anaconda](https://anaconda.org) - Powerful Machine Learning Package Manager
 * [Brew for MacOS](https://brew.sh), [Brew for Linux](http://linuxbrew.sh)
 * pip - built-in for python, ```pip install pkg_name```, to specify which version of python the pkg is to install for, use ```pip2``` to ```pip3```
-* [Jupyter Notebook](http://jupyter.org)
+* [Jupyter Notebook](http://jupyter.org) - elegant and powerful interactive python v3.X shell(can also support for V2.0 or R, etc.)
 * [Scipy](https://www.scipy.org)
-* [Numpy](http://www.numpy.org)
-* [Pandas](http://pandas.pydata.org)
-* [matplotlib](https://matplotlib.org)
-* [scikit-learn](http://scikit-learn.org)
+* [Numpy](http://www.numpy.org) - Powerful and efficient handler for numbers, matrices, and their operations. With CLEAR documentation.
+* [Pandas](http://pandas.pydata.org) - Powerful and efficient handler for Data I/O and preprocessing. With CLEAR documentation.
+* [matplotlib](https://matplotlib.org) - Powerful tool for ploting images. 
+* [scikit-learn](http://scikit-learn.org) - Powerful package containg many basic algorithms in Classification, Regression, Clustering, Dimensionality reduction, Model selection and Preprocessing. With CLEAR documentation.
 
 ### Advanced / Miscellanous
 * [grakn.ai](https://grakn.ai)
 * [algorithmia](https://algorithmia.com)
 * [哈工大语言技术平台云](http://www.ltp-cloud.com), [新注册的ai域名](http://ltp.ai)
 * [jieba](https://github.com/fxsjy/jieba) - 结巴中文分词
-* [NLTK](http://www.nltk.org)
+* [NLTK](http://www.nltk.org) - many NLP tools
 * [THUMT](https://github.com/thumt/THUMT) - an open-source neural machine translation toolkit developed by Tsinghua Natural Language Processing Group
 * [NOUS](https://github.com/streaming-graphs/NOUS) - Construction, Querying and Reasoning with Knowledge Graphs
 * [CN-DBpedia](http://kw.fudan.edu.cn/cndbpedia/intro/) - 复旦·知识图谱API
@@ -176,6 +178,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [知网（HowNet）知识库的简单调用指南](https://mp.weixin.qq.com/s/_AdyRIUazuGrPnzgDYU5gQ)
 * [OpenNE](https://github.com/thunlp/OpenNE) - An open source toolkit for Network Embedding
 * [OpenKE](https://github.com/thunlp/OpenKE) - An Open-Source Package for Knowledge Embeddingd
+* [OpenCV](https://opencv.org) - Computer Vision tool, can be treated as [Photoshop](http://www.adobe.com/products/photoshop.html)
 
 ## Datasets
 

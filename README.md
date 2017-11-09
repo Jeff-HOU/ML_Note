@@ -80,7 +80,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [深度学习的9篇开山之作](https://mp.weixin.qq.com/s?__biz=MjM5MTQzNzU2NA==&mid=2651652247&idx=1&sn=e0d25dba230930c1913a5eae7ab1cef2)
 * [deep-learning-papers](https://github.com/sbrugman/deep-learning-papers)
 * [Conference Open Review](https://openreview.net)
-* [Arxiv Sanity Preserver](http://www.arxiv-sanity.com) - Built in spare time by @karpathy to accelerate research, Serving last 36935 papers from cs.[CV|CL|LG|AI|NE]/stat.ML
+* [Arxiv Sanity Preserver](http://www.arxiv-sanity.com) - Built in spare time by @karpathy to accelerate research, Serving last 36935 papers from cs.
 
 ## Webs or APIs
 
@@ -136,6 +136,8 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/) - have pre-trained word vectors
 * [Beijing City Lab](https://www.beijingcitylab.com)
 * [知网（HowNet）知识库的简单调用指南](https://mp.weixin.qq.com/s/_AdyRIUazuGrPnzgDYU5gQ)
+* [OpenNE](https://github.com/thunlp/OpenNE) - An open source toolkit for Network Embedding
+* [OpenKE](https://github.com/thunlp/OpenKE) - An Open-Source Package for Knowledge Embedding
 
 ## Datasets
 

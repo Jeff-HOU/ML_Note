@@ -1,6 +1,7 @@
-# ML_Note By Kaijun HOU
-> A personal note in my process of learning Machine Learning.
+# ML_Note
+> A Machine Learning note as a collection of many extremely useful resources.
 > Feel free to contact me at <houkaijun@hotmail.com> if you are interested.
+> I would be really glad if this helps you.
 
 > This note might be confusing to you now since I fail to come up with an idea to organize it.
 > But I will try to make it universally applicable later.

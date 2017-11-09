@@ -20,7 +20,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 6. [Webs or APIs](#webs-or-apis)
 	1. [Starting Point](#starting-point)
 	2. [For Python](#for-python)
-	3. [Advanced / Miscellanous](#advanced-/-miscellanous)
+	3. [Advanced / Miscellanous](#advanced--miscellanous)
 7. [Datasets](#datasets)
 8. [Projects](#projects)
 

@@ -111,6 +111,9 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [Theano](https://github.com/Theano/Theano)
 * [MXNet](https://mxnet.incubator.apache.org) - faster
 
+* [AWS EC2](https://aws.amazon.com) - one year free for some micro servers. [Education Entry](https://aws.amazon.com/education/awseducate/) - get free USD$100 each year
+* [Paperspace](https://www.paperspace.com) - cheaper and faster
+
 ### For Python
 * [Anaconda](https://anaconda.org) - Powerful Machine Learning Package Manager
 * [Brew for MacOS](https://brew.sh), [Brew for Linux](http://linuxbrew.sh)
@@ -182,6 +185,9 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [OpenCV](https://opencv.org) - Computer Vision tool, can be treated as [Photoshop](http://www.adobe.com/products/photoshop.html)
 * [FlashText](https://github.com/vi3k6i5/flashtext) - Extract Keywords from sentence or Replace keywords in sentences. Much [faster](https://camo.githubusercontent.com/53e63b19336a7dfbe5d2874b70d73e37c4cd744d/68747470733a2f2f74686570726163746963616c6465762e73332e616d617a6f6e6177732e636f6d2f692f7872756635306e367a31723337746938726438392e706e67) than Regex on longer sentences. [Instruction By 机器之心](https://mp.weixin.qq.com/s/ImtSR6VwYalN6gTgjVJOsQ)
 * [TensorLayer](https://github.com/zsdonghao/tensorlayer) - Deep Learning and Reinforcement Learning Library for Researcher and Engineer.
+* [DPM v5](http://www.rossgirshick.info/latent/) - Discriminatively trained deformable part models, [Instruction to run DPM v5 with Pascal VOC devkit](http://groups.csail.mit.edu/vision/SUN/releases/instruction_VOC2012_DPMv5_SUN2012.txt)
+* [Install Linuxbrew on your AWS instance](http://angus.readthedocs.io/en/2016/linuxbrew_install.html)
+* [使 Amazon EBS 卷可用](http://docs.aws.amazon.com/zh_cn/AWSEC2/latest/UserGuide/ebs-using-volumes.html)
 
 ## Datasets
 
@@ -202,9 +208,12 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [VOT2016 Dataset](http://www.votchallenge.net/vot2016/dataset.html) - Visual Object Tracking
 * [PASCAL VOC](http://blog.csdn.net/zhangjunbob/article/details/52769381)
 * [S＆P 500](https://mp.weixin.qq.com/s/X7ISLRMy5cddpmO5mev4MA) - STATWORX 团队近日(2017-11-12)从 Google Finance API 中精选出了 S＆P 500 数据，该数据集包含 S＆P 500 的指数和股价信息
-* [MSCOCO](http://cocodataset.org/) - large-scale object detection, segmentation, and captioning dataset. 
+* [ImageNet](http://www.image-net.org), [paper](http://www.image-net.org/papers/imagenet_cvpr09.pdf)
+* [MSCOCO](http://cocodataset.org/) -[paper](https://arxiv.org/pdf/1405.0312.pdf) large-scale object detection, segmentation, and captioning dataset. 
+* [OpenSurfaces](http://opensurfaces.cs.cornell.edu) - large database of annotated surfaces created from real-world consumer photographs.
+* [Street View House Numbers (SVHN)](http://ufldl.stanford.edu/housenumbers/)
 
 ## Projects
 * [8个带你快速入门的趣味机器学习项目（附数据源、教程）](https://mp.weixin.qq.com/s/WRLe6HVfp1AJxRJzBgd8_A)
 
-[:arrow_up:TOP](#table-of-contents)
+[⬆️⬆️⬆️TOP](#table-of-contents)

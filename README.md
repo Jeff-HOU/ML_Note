@@ -110,9 +110,11 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [Pytorch](http://pytorch.org) - easier to use
 * [Theano](https://github.com/Theano/Theano)
 * [MXNet](https://mxnet.incubator.apache.org) - faster
+* [Performance Modeling and Evaluation of Distributed Deep Learning Frameworks on GPUs](https://arxiv.org/pdf/1711.05979.pdf)
 
 * [AWS EC2](https://aws.amazon.com) - one year free for some micro servers. [Education Entry](https://aws.amazon.com/education/awseducate/) - get free USD$100 each year
 * [Paperspace](https://www.paperspace.com) - cheaper and faster
+* Some guidance if you would like to switch: [Guidance 1](https://deeplearning4j.org/compare-dl4j-tensorflow-pytorch). If you are new comers, these guidances might not help. From my own experience, just randomly choose one (I would suggest Keras and Pytorch though). Before I touched some of them, I have no idea what these articles are talking about. Even if I went through some articles, I still have no idea which one to choose.
 
 ### For Python
 * [Anaconda](https://anaconda.org) - Powerful Machine Learning Package Manager
@@ -188,6 +190,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [DPM v5](http://www.rossgirshick.info/latent/) - Discriminatively trained deformable part models, [Instruction to run DPM v5 with Pascal VOC devkit](http://groups.csail.mit.edu/vision/SUN/releases/instruction_VOC2012_DPMv5_SUN2012.txt)
 * [Install Linuxbrew on your AWS instance](http://angus.readthedocs.io/en/2016/linuxbrew_install.html)
 * [使 Amazon EBS 卷可用](http://docs.aws.amazon.com/zh_cn/AWSEC2/latest/UserGuide/ebs-using-volumes.html)
+* [Deep Learning for Java](https://deeplearning4j.org/index.html) - Open-Source, Distributed, Deep Learning Library for the JVM, 
 
 ## Datasets
 
@@ -212,6 +215,8 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [MSCOCO](http://cocodataset.org/) -[paper](https://arxiv.org/pdf/1405.0312.pdf) large-scale object detection, segmentation, and captioning dataset. 
 * [OpenSurfaces](http://opensurfaces.cs.cornell.edu) - large database of annotated surfaces created from real-world consumer photographs.
 * [Street View House Numbers (SVHN)](http://ufldl.stanford.edu/housenumbers/)
+* [ML Open Data](https://deeplearning4j.org/opendata)
+* [Stanford Network Analysis Project](http://snap.stanford.edu/index.html)
 
 ## Projects
 * [8个带你快速入门的趣味机器学习项目（附数据源、教程）](https://mp.weixin.qq.com/s/WRLe6HVfp1AJxRJzBgd8_A)

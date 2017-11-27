@@ -190,7 +190,11 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [DPM v5](http://www.rossgirshick.info/latent/) - Discriminatively trained deformable part models, [Instruction to run DPM v5 with Pascal VOC devkit](http://groups.csail.mit.edu/vision/SUN/releases/instruction_VOC2012_DPMv5_SUN2012.txt)
 * [Install Linuxbrew on your AWS instance](http://angus.readthedocs.io/en/2016/linuxbrew_install.html)
 * [使 Amazon EBS 卷可用](http://docs.aws.amazon.com/zh_cn/AWSEC2/latest/UserGuide/ebs-using-volumes.html)
-* [Deep Learning for Java](https://deeplearning4j.org/index.html) - Open-Source, Distributed, Deep Learning Library for the JVM, 
+* [Deep Learning for Java](https://deeplearning4j.org/index.html) - Open-Source, Distributed, Deep Learning Library for the JVM
+* [spaCy](https://github.com/explosion/spaCy) - Industrial-strength Natural Language Processing (NLP) with Python and Cython
+* [3D Visualization of a Convolutional Neural Network](http://scs.ryerson.ca/~aharley/vis/conv/)
+* [2D Visualization of a Convolutional Neural Network](http://scs.ryerson.ca/~aharley/vis/conv/flat.html)
+* [DeepVis](https://github.com/yosinski/deep-visualization-toolbox)
 
 ## Datasets
 

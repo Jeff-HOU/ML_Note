@@ -9,3 +9,5 @@
 * [各种RNN介绍](http://blog.csdn.net/heyongluoyao8/article/details/48636251)
 * [All of Recurrent Neural Networks](https://medium.com/@jianqiangma/all-about-recurrent-neural-networks-9e5ae2936f6e)
 * [隐马尔可夫模型](https://www.zhihu.com/question/20962240/answer/33614574) - Hidden Markov Model
+* [3D Visualization of a Convolutional Neural Network](http://scs.ryerson.ca/~aharley/vis/conv/)
+* [2D Visualization of a Convolutional Neural Network](http://scs.ryerson.ca/~aharley/vis/conv/flat.html)

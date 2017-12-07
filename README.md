@@ -1,6 +1,6 @@
 # ML_Note
 > A Machine Learning Resource gathering as a collection of many extremely useful resources.
-> Feel free to contact me at <houkaijun@hotmail.com> if you are interested.
+> Feel free to contact me at ![](assets/email-hot.png) if you are interested.
 > I would be really glad if this helps you.
 
 > This note might be confusing to you now since I fail to come up with an idea to organize it.
@@ -85,6 +85,8 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [Complete Guide to Parameter Tuning in XGBoost (with codes in Python)](https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/)
 * [When does parameter-sharing in recurrent neural networks make sense?](https://www.quora.com/When-does-parameter-sharing-in-recurrent-neural-networks-make-sense)
 * [如何配置一台适用于深度学习的工作站？](https://www.zhihu.com/question/33996159)
+* [深度学习从入门到出门·机器玄学文章合集](https://zhuanlan.zhihu.com/drl-robotics)
+* [机器学习经典 PRML 最新 Python 代码实现，附最全 PRML 笔记视频学习资料](https://mp.weixin.qq.com/s/rMEHgAkuHNhU6CNfDpktaw)
 
 ## Papers
 ### GAN
@@ -192,8 +194,6 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [使 Amazon EBS 卷可用](http://docs.aws.amazon.com/zh_cn/AWSEC2/latest/UserGuide/ebs-using-volumes.html)
 * [Deep Learning for Java](https://deeplearning4j.org/index.html) - Open-Source, Distributed, Deep Learning Library for the JVM
 * [spaCy](https://github.com/explosion/spaCy) - Industrial-strength Natural Language Processing (NLP) with Python and Cython
-* [3D Visualization of a Convolutional Neural Network](http://scs.ryerson.ca/~aharley/vis/conv/)
-* [2D Visualization of a Convolutional Neural Network](http://scs.ryerson.ca/~aharley/vis/conv/flat.html)
 * [DeepVis](https://github.com/yosinski/deep-visualization-toolbox)
 
 ## Datasets

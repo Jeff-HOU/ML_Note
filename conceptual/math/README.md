@@ -9,3 +9,5 @@
 * [上确界、下确界与最大值、最小值的区别](http://www.mathchina.net/dvbbs/dispbbs.asp?boardid=4&Id=3199), [backup](4.gif)
 * [上确界与上极限有什么异同](https://www.zhihu.com/question/19921998), [backup](5.png)
 * [转置与共轭转置](https://ccjou.wordpress.com/2013/02/27/轉置與共軛轉置/) (conjugate) transpose
+* [f-Divergence](http://blog.csdn.net/uestc_c2_403/article/details/75208644)
+* [矩阵求导](http://blog.csdn.net/u010976453/article/details/54381248)

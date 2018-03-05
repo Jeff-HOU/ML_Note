@@ -26,6 +26,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 8. [Projects](#projects)
 
 ## Conceptual
+> Wikipedia is always your first choice!
 
 * [Math](conceptual/math)
 * [Basic](conceptual/basic)
@@ -50,6 +51,8 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [《机器学习实战》学习笔记](http://www.cnblogs.com/qwertWZ/p/4510859.html)
 * [CURTIS MILLER'S PERSONAL WEBSITE](https://ntguardian.wordpress.com)
 * [返回主页 刘建平Pinard](http://www.cnblogs.com/pinard/)
+* [Siraj Raval](https://github.com/llSourcell?tab=repositories)
+* [Sebastian Ruder](http://ruder.io)
 
 ## Courses and Tutorials
 
@@ -93,6 +96,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [really-awesome-gan](https://github.com/nightrome/really-awesome-gan) Collection of GAN papers
 * [AdversarialNetsPapers](https://github.com/zhangqianhui/AdversarialNetsPapers) Collection of GAN papers
 * [short summaries of some machine learning papers](https://github.com/aleju/papers)
+* [【Ian Goodfellow 强推】GAN 进展跟踪 10 大论文（附下载）](https://mp.weixin.qq.com/s/_ghJerYi8OimO2LrDYzs_Q)
 
 ### NLP
 * [R-NET: Machine Reading Comprehension with Self-matching Networks](paper/nlp/1.pdf)
@@ -195,6 +199,8 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [Deep Learning for Java](https://deeplearning4j.org/index.html) - Open-Source, Distributed, Deep Learning Library for the JVM
 * [spaCy](https://github.com/explosion/spaCy) - Industrial-strength Natural Language Processing (NLP) with Python and Cython
 * [DeepVis](https://github.com/yosinski/deep-visualization-toolbox)
+* [13种编程语言对应的机器学习资源大全！ ](https://mp.weixin.qq.com/s/8LwlA6sR9K5Hti1lJh9M2Q)
+* [别错过这张AI商用清单：你的生产难题可能被一个应用解决（上）](https://mp.weixin.qq.com/s/szVt6C9q1rChRMXX97ynTA)[，（下）](https://mp.weixin.qq.com/s/Qn3FPufHFglLVVwx7f24Fw)
 
 ## Datasets
 

@@ -11,3 +11,5 @@
 * [隐马尔可夫模型](https://www.zhihu.com/question/20962240/answer/33614574) - Hidden Markov Model
 * [3D Visualization of a Convolutional Neural Network](http://scs.ryerson.ca/~aharley/vis/conv/)
 * [2D Visualization of a Convolutional Neural Network](http://scs.ryerson.ca/~aharley/vis/conv/flat.html)
+* [Structure Learning](https://pystruct.github.io/intro.html)
+* [Optimizers](http://ruder.io/optimizing-gradient-descent/)

@@ -201,6 +201,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [DeepVis](https://github.com/yosinski/deep-visualization-toolbox)
 * [13种编程语言对应的机器学习资源大全！ ](https://mp.weixin.qq.com/s/8LwlA6sR9K5Hti1lJh9M2Q)
 * [别错过这张AI商用清单：你的生产难题可能被一个应用解决（上）](https://mp.weixin.qq.com/s/szVt6C9q1rChRMXX97ynTA)[，（下）](https://mp.weixin.qq.com/s/Qn3FPufHFglLVVwx7f24Fw)
+* [ParlAI––––A unified platform for sharing, training and evaluating dialog models across many tasks.](http://parl.ai)
 
 ## Datasets
 

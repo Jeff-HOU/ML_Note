@@ -13,3 +13,4 @@
 * [2D Visualization of a Convolutional Neural Network](http://scs.ryerson.ca/~aharley/vis/conv/flat.html)
 * [Structure Learning](https://pystruct.github.io/intro.html)
 * [Optimizers](http://ruder.io/optimizing-gradient-descent/)
+* [Must Know Tips/Tricks in Deep Neural Networks](http://lamda.nju.edu.cn/weixs/project/CNNTricks/CNNTricks.html)

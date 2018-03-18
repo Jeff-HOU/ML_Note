@@ -228,6 +228,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [Street View House Numbers (SVHN)](http://ufldl.stanford.edu/housenumbers/)
 * [ML Open Data](https://deeplearning4j.org/opendata)
 * [Stanford Network Analysis Project](http://snap.stanford.edu/index.html)
+* [Acemap Knowledge Graph](http://acemap.sjtu.edu.cn/app/AceKG/), 
 
 ## Projects
 * [8个带你快速入门的趣味机器学习项目（附数据源、教程）](https://mp.weixin.qq.com/s/WRLe6HVfp1AJxRJzBgd8_A)

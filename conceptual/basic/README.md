@@ -14,3 +14,5 @@
 * [Structure Learning](https://pystruct.github.io/intro.html)
 * [Optimizers](http://ruder.io/optimizing-gradient-descent/)
 * [Must Know Tips/Tricks in Deep Neural Networks](http://lamda.nju.edu.cn/weixs/project/CNNTricks/CNNTricks.html)
+* [Linear Discriminant Analysis (LDA)](https://www.cnblogs.com/pinard/p/6244265.html)
+* ​

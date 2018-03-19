@@ -53,6 +53,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [返回主页 刘建平Pinard](http://www.cnblogs.com/pinard/)
 * [Siraj Raval](https://github.com/llSourcell?tab=repositories)
 * [Sebastian Ruder](http://ruder.io)
+* [Data science blogs](https://github.com/rushter/data-science-blogs)
 
 ## Courses and Tutorials
 
@@ -78,6 +79,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [Scala](https://www.coursera.org/learn/progfun1) - I cannot understand why people love this language. If you have to use this last-choice language, check this course. If you are eager, check [cheetsheet](https://github.com/lampepfl/progfun-wiki/blob/gh-pages/CheatSheet.md) Please, stop wasting your time on this [Facepalm]. If you were asked to use it, complain to your supervisor with no hesitance.
 * [Udacity](https://www.udacity.com) - too many wonderful courses!
 * [斯坦福大学秋季课程《深度学习理论》STATS 385](https://mp.weixin.qq.com/s/TjNncHBogfN5-OG0ysR1HA), [HomePage](https://stats385.github.io), [Videos](https://www.researchgate.net/project/Theories-of-Deep-Learning), [Videos on Bilibili](https://www.bilibili.com/video/av16136625/)
+* [Book Collection](https://github.com/Jing--Li/book)
 
 ## Articles
 
@@ -108,6 +110,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [deep-learning-papers](https://github.com/sbrugman/deep-learning-papers)
 * [Conference Open Review](https://openreview.net)
 * [Arxiv Sanity Preserver](http://www.arxiv-sanity.com) - Built in spare time by @karpathy to accelerate research, Serving last 36935 papers from cs.
+* [State-of-the-art result for all Machine Learning Problems](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems)
 
 ## Webs or APIs
 ### Starting Point

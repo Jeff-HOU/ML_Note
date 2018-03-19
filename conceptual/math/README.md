@@ -11,3 +11,5 @@
 * [转置与共轭转置](https://ccjou.wordpress.com/2013/02/27/轉置與共軛轉置/) (conjugate) transpose
 * [f-Divergence](http://blog.csdn.net/uestc_c2_403/article/details/75208644)
 * [矩阵求导](http://blog.csdn.net/u010976453/article/details/54381248)
+* [Gradient And Karush-Kuhn-Tucker (KKT) Conditions](http://www.cnblogs.com/vivounicorn/archive/2011/12/29/2306060.html)
+

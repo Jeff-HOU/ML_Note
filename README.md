@@ -80,6 +80,9 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [Udacity](https://www.udacity.com) - too many wonderful courses!
 * [斯坦福大学秋季课程《深度学习理论》STATS 385](https://mp.weixin.qq.com/s/TjNncHBogfN5-OG0ysR1HA), [HomePage](https://stats385.github.io), [Videos](https://www.researchgate.net/project/Theories-of-Deep-Learning), [Videos on Bilibili](https://www.bilibili.com/video/av16136625/)
 * [Book Collection](https://github.com/Jing--Li/book)
+* [UC Berkeley CS 294: Deep Reinforcement Learning, Fall 2017](http://rll.berkeley.edu/deeprlcourse/)
+* [《迁移学习简明手册》](https://github.com/jindongwang/transferlearning-tutorial)
+* [迁移学习介绍、综述文章、最新文章、代表工作及其代码、常用数据集、硕博士论文](https://github.com/jindongwang/transferlearning)
 
 ## Articles
 
@@ -205,6 +208,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [13种编程语言对应的机器学习资源大全！ ](https://mp.weixin.qq.com/s/8LwlA6sR9K5Hti1lJh9M2Q)
 * [别错过这张AI商用清单：你的生产难题可能被一个应用解决（上）](https://mp.weixin.qq.com/s/szVt6C9q1rChRMXX97ynTA)[，（下）](https://mp.weixin.qq.com/s/Qn3FPufHFglLVVwx7f24Fw)
 * [ParlAI––––A unified platform for sharing, training and evaluating dialog models across many tasks.](http://parl.ai)
+* [Pandas on Ray](https://mp.weixin.qq.com/s/DP8vqQPzZno3oZwa2rQvHA) Pandas 改进版
 
 ## Datasets
 
@@ -235,5 +239,6 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 
 ## Projects
 * [8个带你快速入门的趣味机器学习项目（附数据源、教程）](https://mp.weixin.qq.com/s/WRLe6HVfp1AJxRJzBgd8_A)
+* [《21个项目玩转深度学习———基于TensorFlow的实践详解》配套代码](https://github.com/hzy46/Deep-Learning-21-Examples)
 
 [⬆️⬆️⬆️TOP](#table-of-contents)

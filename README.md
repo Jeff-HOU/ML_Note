@@ -113,7 +113,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [deep-learning-papers](https://github.com/sbrugman/deep-learning-papers)
 * [Conference Open Review](https://openreview.net)
 * [Arxiv Sanity Preserver](http://www.arxiv-sanity.com) - Built in spare time by @karpathy to accelerate research, Serving last 36935 papers from cs.
-* [State-of-the-art result for all Machine Learning Problems](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems)
+* [State-of-the-art result for all Machine Learning Problems](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems), or [this](http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html)
 
 ## Webs or APIs
 ### Starting Point
@@ -236,9 +236,11 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [ML Open Data](https://deeplearning4j.org/opendata)
 * [Stanford Network Analysis Project](http://snap.stanford.edu/index.html)
 * [Acemap Knowledge Graph](http://acemap.sjtu.edu.cn/app/AceKG/), 
+* [Amazon connect a new EBS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html)
 
 ## Projects
 * [8个带你快速入门的趣味机器学习项目（附数据源、教程）](https://mp.weixin.qq.com/s/WRLe6HVfp1AJxRJzBgd8_A)
 * [《21个项目玩转深度学习———基于TensorFlow的实践详解》配套代码](https://github.com/hzy46/Deep-Learning-21-Examples)
+* [Keras implementations of Generative Adversarial Networks](https://github.com/eriklindernoren/Keras-GAN), [PyTorch implementations of Generative Adversarial Networks](https://github.com/eriklindernoren/PyTorch-GAN)
 
 [⬆️⬆️⬆️TOP](#table-of-contents)

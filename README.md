@@ -95,6 +95,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [如何配置一台适用于深度学习的工作站？](https://www.zhihu.com/question/33996159)
 * [深度学习从入门到出门·机器玄学文章合集](https://zhuanlan.zhihu.com/drl-robotics)
 * [机器学习经典 PRML 最新 Python 代码实现，附最全 PRML 笔记视频学习资料](https://mp.weixin.qq.com/s/rMEHgAkuHNhU6CNfDpktaw)
+* [令人拍案叫绝的Wasserstein GAN](https://zhuanlan.zhihu.com/p/25071913)
 
 ## Papers
 ### GAN
@@ -209,6 +210,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [别错过这张AI商用清单：你的生产难题可能被一个应用解决（上）](https://mp.weixin.qq.com/s/szVt6C9q1rChRMXX97ynTA)[，（下）](https://mp.weixin.qq.com/s/Qn3FPufHFglLVVwx7f24Fw)
 * [ParlAI––––A unified platform for sharing, training and evaluating dialog models across many tasks.](http://parl.ai)
 * [Pandas on Ray](https://mp.weixin.qq.com/s/DP8vqQPzZno3oZwa2rQvHA) Pandas 改进版
+* [Amazon connect a new EBS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html)
 
 ## Datasets
 
@@ -235,8 +237,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [Street View House Numbers (SVHN)](http://ufldl.stanford.edu/housenumbers/)
 * [ML Open Data](https://deeplearning4j.org/opendata)
 * [Stanford Network Analysis Project](http://snap.stanford.edu/index.html)
-* [Acemap Knowledge Graph](http://acemap.sjtu.edu.cn/app/AceKG/), 
-* [Amazon connect a new EBS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html)
+* [Acemap Knowledge Graph](http://acemap.sjtu.edu.cn/app/AceKG/)
 
 ## Projects
 * [8个带你快速入门的趣味机器学习项目（附数据源、教程）](https://mp.weixin.qq.com/s/WRLe6HVfp1AJxRJzBgd8_A)

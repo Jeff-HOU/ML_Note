@@ -17,4 +17,4 @@
 * [Linear Discriminant Analysis (LDA)](https://www.cnblogs.com/pinard/p/6244265.html)
 * [Backward Propagation Mathematical Steps](https://brilliant.org/wiki/backpropagation/)
 * [损失函数 Loss Functions](http://blog.csdn.net/u010976453/article/details/78488279)
-
+* 

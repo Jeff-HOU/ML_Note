@@ -1,3 +1,11 @@
+> I will no longer update "Deep Learning" part of this note frequently. Several reasons like:
+>
+> 1. Fairly speaking, these are much more than enough for an beginner. If you could take use of them, then you should be awesome now!
+> 2. I cannot afford expensive GPUs. Deep Learning is still somewhat like an alchemy [[E.g.](https://arxiv.org/pdf/1802.03446.pdf)] (You are search for this topic on Twitter).
+> 3. I'm more interested in the application of (Statistical) Machine Learning these days. So I would probably update some Machine Learning related resources in the future.
+> 4. I don't want to go on a PhD to do research. I believe the knowledge I have now is enough to me. Startup-like things might be more enjoyable.
+> 5. 人生苦短，我更喜欢刺激与惊喜 (Short as life is, I pursue thrill and surprise.)
+
 # ML_Note
 > A Machine Learning Resource gathering as a collection of many extremely useful resources.
 > Feel free to contact me at ![](assets/email-hot.png) if you are interested.

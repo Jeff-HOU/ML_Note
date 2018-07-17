@@ -1,10 +1,11 @@
 > I will no longer update "Deep Learning" part of this note frequently. Several reasons like:
 >
-> 1. Fairly speaking, these are much more than enough for an beginner. If you could take use of them, then you should be awesome now!
+> 1. Fairly speaking, these are much more than enough for a beginner. If you could take good use of them, then you should be awesome now!
 > 2. I cannot afford expensive GPUs. Deep Learning is still somewhat like an alchemy [[E.g.](https://arxiv.org/pdf/1802.03446.pdf)] (You are search for this topic on Twitter).
 > 3. I'm more interested in the application of (Statistical) Machine Learning these days. So I would probably update some Machine Learning related resources in the future.
 > 4. I don't want to go on a PhD to do research. I believe the knowledge I have now is enough to me. Startup-like things might be more enjoyable.
 > 5. 人生苦短，我更喜欢刺激与惊喜 (Short as life is, I pursue thrill and surprise.)
+> 6. As pointed out by some senior researchers, I am not smart enough to compete with those people.:man_facepalming: (Half kidding)
 
 # ML_Note
 > A Machine Learning Resource gathering as a collection of many extremely useful resources.
@@ -25,7 +26,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 5. [Papers](#papers)
 	1. [GAN](#gan)
 	2. [NLP](#nlp)
-	3. [Miscellanous](#miscellanous)
+	3. [Miscellanous](#miscellaneous)
 6. [Webs or APIs](#webs-or-apis)
 	1. [Starting Point](#starting-point)
 	2. [For Python](#for-python)

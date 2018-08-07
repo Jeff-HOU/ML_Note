@@ -220,6 +220,7 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [ParlAI––––A unified platform for sharing, training and evaluating dialog models across many tasks.](http://parl.ai)
 * [Pandas on Ray](https://mp.weixin.qq.com/s/DP8vqQPzZno3oZwa2rQvHA) Pandas 改进版
 * [Amazon connect a new EBS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html)
+* [Compute Code Diff](https://www.diffchecker.com/diff)
 
 ## Datasets
 
@@ -247,10 +248,12 @@ You may want to **[search](search.html)** or **[contibute](assets/contributing)*
 * [ML Open Data](https://deeplearning4j.org/opendata)
 * [Stanford Network Analysis Project](http://snap.stanford.edu/index.html)
 * [Acemap Knowledge Graph](http://acemap.sjtu.edu.cn/app/AceKG/)
+* YTF ([YouTube Faces DB](http://www.cs.tau.ac.il/~wolf/ytfaces/)), login to [this server](ftp://agas.openu.ac.il//v/data9/cslab/wolftau/), username: wolftau, PW: wtal997 ([ref](https://blog.csdn.net/sunny0660/article/details/78536164))
 
 ## Projects
 * [8个带你快速入门的趣味机器学习项目（附数据源、教程）](https://mp.weixin.qq.com/s/WRLe6HVfp1AJxRJzBgd8_A)
 * [《21个项目玩转深度学习———基于TensorFlow的实践详解》配套代码](https://github.com/hzy46/Deep-Learning-21-Examples)
 * [Keras implementations of Generative Adversarial Networks](https://github.com/eriklindernoren/Keras-GAN), [PyTorch implementations of Generative Adversarial Networks](https://github.com/eriklindernoren/PyTorch-GAN)
+* [Implementation of Conditional WGAN and WGAN in pytorch](https://www.reddit.com/r/MachineLearning/comments/8hrfb4/p_implementation_of_conditional_wgan_and_wgan_in/)
 
 [⬆️⬆️⬆️TOP](#table-of-contents)
